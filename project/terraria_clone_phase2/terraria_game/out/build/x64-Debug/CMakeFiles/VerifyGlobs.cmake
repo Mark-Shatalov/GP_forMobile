@@ -16,6 +16,7 @@ set(OLD_GLOB
   "C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/src/player.c"
   "C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/src/tile.c"
   "C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/src/world.c"
+  "C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/src/world_generation.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

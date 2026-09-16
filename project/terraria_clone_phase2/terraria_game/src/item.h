@@ -19,6 +19,9 @@ typedef enum ItemType
     ITEM_DIRT,
     ITEM_GRASS,
     ITEM_STONE,
+    ITEM_WOOD,
+    ITEM_LEAVES,
+    ITEM_COPPER_ORE,
 
     ITEM_TYPE_COUNT
 } ItemType;

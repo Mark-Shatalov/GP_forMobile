@@ -7,8 +7,8 @@
     tile.h
 
     Purpose:
-    Defines what a "tile" is in this game. For now a tile is nothing
-    more than a type (Air, Dirt, Grass, Stone), but keeping it in its
+    Defines what a "tile" is in this game. A tile is currently a type
+    with shared properties, but keeping it in its
     own module means later phases can extend it (durability, light
     level, variants, etc.) without touching world.c's rendering logic.
 
@@ -22,6 +22,9 @@ typedef enum TileType
     TILE_DIRT,
     TILE_GRASS,
     TILE_STONE,
+    TILE_WOOD,
+    TILE_LEAVES,
+    TILE_COPPER_ORE,
 
     TILE_TYPE_COUNT /* not a real tile - used to know how many types exist */
 } TileType;

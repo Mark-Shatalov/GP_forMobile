@@ -13,8 +13,8 @@
     the game does not need to know HOW the camera moves, only that it
     exists and can be used to draw the world correctly.
 
-    In Phase 3, the camera follows the center of the player while still
-    allowing the mouse wheel to control zoom.
+    The camera follows the center of the player. Ctrl + mouse wheel controls
+    zoom because the unmodified wheel selects hotbar slots in Phase 5.
 */
 
 typedef struct CameraController

@@ -1,4 +1,5 @@
 #include "world.h"
+#include "world_generation.h"
 #include <math.h>
 
 /*
@@ -15,32 +16,7 @@ bool World_IsInBounds(int tileX, int tileY)
 
 void World_Init(World *world)
 {
-    for (int y = 0; y < WORLD_HEIGHT_TILES; y++)
-    {
-        for (int x = 0; x < WORLD_WIDTH_TILES; x++)
-        {
-            TileType type;
-
-            if (y < GROUND_LEVEL_TILE)
-            {
-                type = TILE_AIR; /* sky */
-            }
-            else if (y == GROUND_LEVEL_TILE)
-            {
-                type = TILE_GRASS; /* surface layer */
-            }
-            else if (y < GROUND_LEVEL_TILE + 1 + DIRT_LAYER_THICKNESS)
-            {
-                type = TILE_DIRT;
-            }
-            else
-            {
-                type = TILE_STONE; /* everything deep underground */
-            }
-
-            world->tiles[y][x] = type;
-        }
-    }
+    WorldGeneration_Generate(world);
 }
 
 TileType World_GetTile(const World *world, int tileX, int tileY)
@@ -61,6 +37,24 @@ void World_SetTile(World *world, int tileX, int tileY, TileType type)
     }
 
     world->tiles[tileY][tileX] = type;
+}
+
+int World_FindSurfaceY(const World *world, int tileX)
+{
+    if (tileX < 0 || tileX >= WORLD_WIDTH_TILES)
+    {
+        return GROUND_LEVEL_TILE;
+    }
+
+    for (int tileY = 0; tileY < WORLD_HEIGHT_TILES; tileY++)
+    {
+        if (World_GetTile(world, tileX, tileY) == TILE_GRASS)
+        {
+            return tileY;
+        }
+    }
+
+    return GROUND_LEVEL_TILE;
 }
 
 void World_Draw(const World *world, Camera2D camera)

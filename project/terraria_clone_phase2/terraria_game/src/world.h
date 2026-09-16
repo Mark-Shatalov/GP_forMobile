@@ -15,11 +15,9 @@
     tile.c) and does NOT know about the player or camera controls —
     it only needs a Camera2D to figure out what's visible when drawing.
 
-    In Phase 2, World_Init fills the grid with a simple fixed layout
-    (sky / grass / dirt / stone) just so we have real tile data to
-    render. Phase 6 will replace World_Init's contents with proper
-    procedural generation (caves, ores, trees) without needing to
-    change how the world is stored or drawn.
+    World_Init asks the separate world_generation module to build the tile
+    layout. Generation can change without changing how tiles are stored,
+    queried, edited, or drawn here.
 */
 
 typedef struct World
@@ -27,8 +25,7 @@ typedef struct World
     TileType tiles[WORLD_HEIGHT_TILES][WORLD_WIDTH_TILES];
 } World;
 
-/* Fills the world with a simple test layout: air above ground level,
-   a grass surface row, a few rows of dirt, then stone underneath. */
+/* Builds the initial world using the procedural generator. */
 void World_Init(World *world);
 
 /* Returns true when a tile coordinate is inside the world array. */
@@ -41,6 +38,9 @@ TileType World_GetTile(const World *world, int tileX, int tileY);
 
 /* Sets the tile at (tileX, tileY). Does nothing if out of bounds. */
 void World_SetTile(World *world, int tileX, int tileY, TileType type);
+
+/* Finds the grass surface in a column, used to choose a safe spawn height. */
+int World_FindSurfaceY(const World *world, int tileX);
 
 /* Draws every non-air tile that is currently visible through the
    given camera. Tiles outside the camera's view are skipped entirely,

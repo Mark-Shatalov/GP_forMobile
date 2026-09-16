@@ -4,11 +4,11 @@ An educational, step-by-step recreation of a Terraria-like 2D sandbox game,
 built in plain C (C99) with Raylib. Each development phase is built and
 verified before moving to the next one.
 
-## Current status: Phase 5 - Inventory complete
+## Current status: Phase 6 - Procedural world complete
 
 What exists right now:
 
-- Everything from Phases 1 through 4
+- Everything from Phases 1 through 5
 - A `Player` struct with position, velocity, size, and grounded state
 - Horizontal movement, jumping, gravity, and maximum fall speed
 - Axis-separated collision against solid world tiles
@@ -17,13 +17,19 @@ What exists right now:
 - A small input module that keeps keyboard choices separate from physics
 - Mouse tile targeting with a yellow in-range or red out-of-range outline
 - Left-click mining with colored block-break particles
-- Right-click dirt placement on empty tiles beside existing solid tiles
+- Right-click selected-block placement on empty tiles beside solid tiles
 - Five-tile interaction reach and protection against placing inside the player
 - A ten-slot hotbar with 99 items per stack
-- Dirt, grass, and stone inventory item types
+- Dirt, grass, stone, wood, leaves, and copper ore inventory items
 - Collectible item drops created by mining blocks
 - Placement that consumes one item from the selected stack
 - Mouse-wheel and number-key hotbar selection
+- Reproducible rolling terrain generated from a configurable seed
+- Variable dirt depth with stone underneath
+- Random-walk cave tunnels below the protected surface
+- Copper ore veins placed inside stone
+- Trees made from collectible wood and leaf blocks
+- Generated-surface player spawning with a clear starting area
 
 Controls:
 
@@ -50,6 +56,7 @@ src/
 |-- particle.c/.h          - fixed-pool block-break particles
 |-- player.c / player.h    - player physics, collision, and drawing
 |-- world.c / world.h      - 2D tile grid, visible-tile rendering
+|-- world_generation.c/.h  - terrain, caves, ore veins, and trees
 |-- tile.c / tile.h        - TileType enum and per-tile properties
 `-- constants.h            - shared tunable values
 
@@ -108,4 +115,4 @@ make clean
 - [x] Phase 3 - Player (movement, gravity, collision, camera follow)
 - [x] Phase 4 - Interaction (mining, placing, reach distance, particles)
 - [x] Phase 5 - Inventory (hotbar, stacking, pickup, selection)
-- [ ] Phase 6 - Procedural world (surface, caves, trees, ores)
+- [x] Phase 6 - Procedural world (surface, caves, trees, ores)

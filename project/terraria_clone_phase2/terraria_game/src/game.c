@@ -8,11 +8,11 @@
 
     Implementation of the Game module.
 
-    Phase 5 scope:
-    - Store stackable items in a ten-slot hotbar
-    - Drop collectible items when blocks are mined
-    - Place and consume the selected block item
-    - Change the selected slot with the wheel or number keys
+    Phase 6 scope:
+    - Generate rolling surface terrain and variable dirt layers
+    - Carve cave tunnels and place copper ore veins
+    - Grow simple trees while keeping the spawn area clear
+    - Spawn the player on the generated surface
 */
 
 void Game_Init(Game *game)
@@ -20,11 +20,13 @@ void Game_Init(Game *game)
     CameraController_Init(&game->cameraController);
     World_Init(&game->world);
 
-    /* Spawn near the world's middle with the player's feet one tile
-       above the surface. Gravity will place the player on the grass. */
+    int spawnTileX = WORLD_WIDTH_TILES / 2;
+    int surfaceTileY = World_FindSurfaceY(&game->world, spawnTileX);
+
+    /* Center the player over a tile with their feet on generated grass. */
     Vector2 spawnPosition = {
-        (WORLD_WIDTH_TILES * TILE_SIZE) / 2.0f - PLAYER_WIDTH / 2.0f,
-        (GROUND_LEVEL_TILE - 1) * TILE_SIZE - PLAYER_HEIGHT
+        spawnTileX * TILE_SIZE + (TILE_SIZE - PLAYER_WIDTH) / 2.0f,
+        surfaceTileY * TILE_SIZE - PLAYER_HEIGHT
     };
     Player_Init(&game->player, spawnPosition);
     Interaction_Init(&game->interaction);
