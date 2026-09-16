@@ -2,6 +2,7 @@
 #define INPUT_H
 
 #include <stdbool.h>
+#include "raylib.h"
 
 /*
     input.h
@@ -18,7 +19,17 @@ typedef struct PlayerInput
     bool jumpPressed;    /* true only on the frame jump was pressed */
 } PlayerInput;
 
+typedef struct InteractionInput
+{
+    Vector2 mouseScreenPosition;
+    bool minePressed;
+    bool placePressed;
+} InteractionInput;
+
 /* Reads the keyboard once and returns the commands for this frame. */
 PlayerInput Input_GetPlayerInput(void);
+
+/* Reads mouse position and block-interaction buttons for this frame. */
+InteractionInput Input_GetInteractionInput(void);
 
 #endif /* INPUT_H */

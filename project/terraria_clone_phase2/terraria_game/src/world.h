@@ -31,6 +31,9 @@ typedef struct World
    a grass surface row, a few rows of dirt, then stone underneath. */
 void World_Init(World *world);
 
+/* Returns true when a tile coordinate is inside the world array. */
+bool World_IsInBounds(int tileX, int tileY);
+
 /* Returns the tile at (tileX, tileY). Returns TILE_AIR for any
    out-of-bounds coordinate instead of crashing, so callers don't need
    to bounds-check before every lookup. */

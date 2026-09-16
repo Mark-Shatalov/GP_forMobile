@@ -24,3 +24,14 @@ PlayerInput Input_GetPlayerInput(void)
 
     return input;
 }
+
+InteractionInput Input_GetInteractionInput(void)
+{
+    InteractionInput input = { 0 };
+
+    input.mouseScreenPosition = GetMousePosition();
+    input.minePressed = IsMouseButtonPressed(MOUSE_BUTTON_LEFT);
+    input.placePressed = IsMouseButtonPressed(MOUSE_BUTTON_RIGHT);
+
+    return input;
+}

@@ -82,7 +82,29 @@ build CMakeFiles\terraria_clone.dir\src\input.c.obj: C_COMPILER__terraria_clone_
   TARGET_PDB = bin\terraria_clone.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\terraria_clone.dir
 
+build CMakeFiles\terraria_clone.dir\src\interaction.c.obj: C_COMPILER__terraria_clone_unscanned_Debug C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\src\interaction.c || cmake_object_order_depends_target_terraria_clone
+  CONFIG = Debug
+  DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
+  INCLUDES = -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include
+  OBJECT_DIR = CMakeFiles\terraria_clone.dir
+  OBJECT_FILE_DIR = CMakeFiles\terraria_clone.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\terraria_clone.dir\
+  TARGET_PDB = bin\terraria_clone.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\terraria_clone.dir
+
 build CMakeFiles\terraria_clone.dir\src\main.c.obj: C_COMPILER__terraria_clone_unscanned_Debug C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\src\main.c || cmake_object_order_depends_target_terraria_clone
+  CONFIG = Debug
+  DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
+  INCLUDES = -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include
+  OBJECT_DIR = CMakeFiles\terraria_clone.dir
+  OBJECT_FILE_DIR = CMakeFiles\terraria_clone.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\terraria_clone.dir\
+  TARGET_PDB = bin\terraria_clone.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\terraria_clone.dir
+
+build CMakeFiles\terraria_clone.dir\src\particle.c.obj: C_COMPILER__terraria_clone_unscanned_Debug C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\src\particle.c || cmake_object_order_depends_target_terraria_clone
   CONFIG = Debug
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
@@ -134,7 +156,7 @@ build CMakeFiles\terraria_clone.dir\src\world.c.obj: C_COMPILER__terraria_clone_
 #############################################
 # Link the executable bin\terraria_clone.exe
 
-build bin\terraria_clone.exe: C_EXECUTABLE_LINKER__terraria_clone_Debug CMakeFiles\terraria_clone.dir\src\camera_controller.c.obj CMakeFiles\terraria_clone.dir\src\game.c.obj CMakeFiles\terraria_clone.dir\src\input.c.obj CMakeFiles\terraria_clone.dir\src\main.c.obj CMakeFiles\terraria_clone.dir\src\player.c.obj CMakeFiles\terraria_clone.dir\src\tile.c.obj CMakeFiles\terraria_clone.dir\src\world.c.obj | _deps\raylib-build\raylib\raylib.lib || _deps\raylib-build\raylib\external\glfw\src\glfw _deps\raylib-build\raylib\raylib.lib
+build bin\terraria_clone.exe: C_EXECUTABLE_LINKER__terraria_clone_Debug CMakeFiles\terraria_clone.dir\src\camera_controller.c.obj CMakeFiles\terraria_clone.dir\src\game.c.obj CMakeFiles\terraria_clone.dir\src\input.c.obj CMakeFiles\terraria_clone.dir\src\interaction.c.obj CMakeFiles\terraria_clone.dir\src\main.c.obj CMakeFiles\terraria_clone.dir\src\particle.c.obj CMakeFiles\terraria_clone.dir\src\player.c.obj CMakeFiles\terraria_clone.dir\src\tile.c.obj CMakeFiles\terraria_clone.dir\src\world.c.obj | _deps\raylib-build\raylib\raylib.lib || _deps\raylib-build\raylib\external\glfw\src\glfw _deps\raylib-build\raylib\raylib.lib
   CONFIG = Debug
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console

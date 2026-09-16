@@ -51,4 +51,10 @@
 #define PLAYER_GRAVITY     900.0f
 #define PLAYER_MAX_FALL_SPEED 500.0f
 
+/* ---------- Block interaction settings ---------- */
+#define BLOCK_REACH_TILES       5.0f
+#define MAX_BLOCK_PARTICLES     128
+#define BLOCK_BREAK_PARTICLES   10
+#define PARTICLE_GRAVITY        300.0f
+
 #endif /* CONSTANTS_H */

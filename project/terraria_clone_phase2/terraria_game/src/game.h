@@ -2,6 +2,8 @@
 #define GAME_H
 
 #include "camera_controller.h"
+#include "interaction.h"
+#include "particle.h"
 #include "player.h"
 #include "world.h"
 
@@ -13,8 +15,8 @@
     main.c should stay tiny — it just creates the window and calls into
     Game_Init / Game_Update / Game_Draw / Game_Shutdown every frame.
 
-    Phase 3 adds a Player alongside the World and CameraController.
-    Later phases can add inventory and interaction systems the same way.
+    Phase 4 adds block interaction and particles alongside the existing
+    World, Player, and CameraController.
 */
 
 typedef struct Game
@@ -22,6 +24,8 @@ typedef struct Game
     CameraController cameraController;
     World world;
     Player player;
+    Interaction interaction;
+    ParticleSystem particleSystem;
 } Game;
 
 /* Called once at startup. Sets up all subsystems. */

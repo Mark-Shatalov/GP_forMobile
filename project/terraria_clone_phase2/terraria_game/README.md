@@ -4,23 +4,29 @@ An educational, step-by-step recreation of a Terraria-like 2D sandbox game,
 built in plain C (C99) with Raylib. Each development phase is built and
 verified before moving to the next one.
 
-## Current status: Phase 3 - Player complete
+## Current status: Phase 4 - Interaction complete
 
 What exists right now:
 
-- Everything from Phases 1 and 2
+- Everything from Phases 1 through 3
 - A `Player` struct with position, velocity, size, and grounded state
 - Horizontal movement, jumping, gravity, and maximum fall speed
 - Axis-separated collision against solid world tiles
 - World-boundary collision
 - A camera that follows the player's center and stays inside the world
 - A small input module that keeps keyboard choices separate from physics
+- Mouse tile targeting with a yellow in-range or red out-of-range outline
+- Left-click mining with colored block-break particles
+- Right-click dirt placement on empty tiles beside existing solid tiles
+- Five-tile interaction reach and protection against placing inside the player
 
 Controls:
 
 - `A` / `D` or Left / Right arrows - move
 - `Space` - jump
 - Mouse wheel - zoom in/out
+- Left click - mine the targeted block
+- Right click - place a dirt block
 
 ## Project structure
 
@@ -30,6 +36,8 @@ src/
 |-- game.c / game.h        - ties subsystems together
 |-- camera_controller.c/.h - player-following Camera2D and zoom
 |-- input.c / input.h      - maps keyboard state to player commands
+|-- interaction.c/.h       - targeting, reach, mining, and placement
+|-- particle.c/.h          - fixed-pool block-break particles
 |-- player.c / player.h    - player physics, collision, and drawing
 |-- world.c / world.h      - 2D tile grid, visible-tile rendering
 |-- tile.c / tile.h        - TileType enum and per-tile properties
@@ -88,6 +96,6 @@ make clean
 - [x] Phase 1 - Engine (window, game loop, Camera2D, test grid)
 - [x] Phase 2 - Tile world (tile enum, 2D array, visible-tile rendering)
 - [x] Phase 3 - Player (movement, gravity, collision, camera follow)
-- [ ] Phase 4 - Interaction (mining, placing, reach distance, particles)
+- [x] Phase 4 - Interaction (mining, placing, reach distance, particles)
 - [ ] Phase 5 - Inventory (hotbar, stacking, pickup, selection)
 - [ ] Phase 6 - Procedural world (surface, caves, trees, ores)

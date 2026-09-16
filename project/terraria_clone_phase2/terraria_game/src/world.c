@@ -7,8 +7,7 @@
     Implementation of the World module described in world.h.
 */
 
-/* Returns true if (tileX, tileY) is inside the world's bounds. */
-static bool IsInsideWorld(int tileX, int tileY)
+bool World_IsInBounds(int tileX, int tileY)
 {
     return tileX >= 0 && tileX < WORLD_WIDTH_TILES &&
            tileY >= 0 && tileY < WORLD_HEIGHT_TILES;
@@ -46,7 +45,7 @@ void World_Init(World *world)
 
 TileType World_GetTile(const World *world, int tileX, int tileY)
 {
-    if (!IsInsideWorld(tileX, tileY))
+    if (!World_IsInBounds(tileX, tileY))
     {
         return TILE_AIR;
     }
@@ -56,7 +55,7 @@ TileType World_GetTile(const World *world, int tileX, int tileY)
 
 void World_SetTile(World *world, int tileX, int tileY, TileType type)
 {
-    if (!IsInsideWorld(tileX, tileY))
+    if (!World_IsInBounds(tileX, tileY))
     {
         return;
     }
