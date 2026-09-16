@@ -1,22 +1,21 @@
-/*******************************************************************************************
-*
-*   Top-down survivor - simple raylib game
-*
-*   Player moves with WASD/arrows, shoots toward the mouse click.
-*   Enemies spawn at the screen edges and chase the player.
-*   Bullet vs enemy = kill + score. Enemy vs player = lose HP.
-*
-********************************************************************************************/
+// Mark Shatalov
+// C00312571
+
+// top-down shooter
+// player moves with WASD/arrows, shoots toward the mouse click
+// enemies spawn at the screen edges and chase the player
+// if the bullet collides with enemy you get a score and kill enemy. enemy vs player = lose HP
+
 
 #include "raylib.h"
 #include "raymath.h"
 
-//----------------------------------------------------------------------------------
+//-------------------------
 // Defines
-//----------------------------------------------------------------------------------
+//-------------------------
 #define MAX_ENEMIES 15
 #define MAX_BULLETS 3
-#define PLAYER_SPEED 220.0f
+#define PLAYER_SPEED 280.0f
 #define PLAYER_RADIUS 16.0f
 #define ENEMY_RADIUS 14.0f
 #define BULLET_RADIUS 5.0f
@@ -24,9 +23,9 @@
 // seconds between enemy spawns
 #define SPAWN_INTERVAL 1.0f 
 
-//----------------------------------------------------------------------------------
+//-------------------------
 // Types
-//----------------------------------------------------------------------------------
+//-------------------------
 typedef struct Player 
 {
     Vector2 pos;
@@ -48,9 +47,7 @@ typedef struct Bullet
     bool active;
 } Bullet;
 
-//----------------------------------------------------------------------------------
-// Global game state (kept simple and file-local on purpose)
-//----------------------------------------------------------------------------------
+// global game variables
 static Player player;
 static Enemy enemies[MAX_ENEMIES];
 static Bullet bullets[MAX_BULLETS];
@@ -58,12 +55,10 @@ static int score = 0;
 static float spawnTimer = 0.0f;
 static bool gameOver = false;
 
-static const int screenWidth = 800;
-static const int screenHeight = 450;
+static const int screenWidth = 1366;
+static const int screenHeight = 768;
 
-//----------------------------------------------------------------------------------
-// Module functions
-//----------------------------------------------------------------------------------
+// reset the game to initial state
 static void ResetGame(void)
 {
     player.pos = (Vector2){ screenWidth/2.0f, screenHeight/2.0f };
@@ -72,6 +67,7 @@ static void ResetGame(void)
     spawnTimer = 0.0f;
     gameOver = false;
 
+	// deactivate bullets and enemies
     for (int i = 0; i < MAX_ENEMIES; i++)
     {
         enemies[i].active = false;
@@ -94,25 +90,29 @@ static void SpawnEnemy(void)
             int edge = GetRandomValue(0, 3); 
             Vector2 pos = { 0 };
 
-            if (edge == 0) pos = (Vector2)
-            { 
-                (float)GetRandomValue(0, screenWidth), -20 
-            };
-            else if (edge == 1) pos = (Vector2)
-            { 
-                (float)GetRandomValue(0, screenWidth), screenHeight + 20 
-            };
-            else if (edge == 2) pos = (Vector2)
-            { 
-                -20, (float)GetRandomValue(0, screenHeight) 
-            };
-            else pos = (Vector2)
-            { 
-                screenWidth + 20, (float)GetRandomValue(0, screenHeight) 
-            };
+            if (edge == 0)
+            {
+                pos.x = GetRandomValue(0, screenWidth);
+                pos.y = -20;
+            }
+            else if (edge == 1)
+            {
+                pos.x = GetRandomValue(0, screenWidth);
+                pos.y = screenHeight + 20;
+            }
+            else if (edge == 2)
+            {
+                pos.x = -20;
+                pos.y = GetRandomValue(0, screenHeight);
+            }
+            else
+            {
+                pos.x = screenWidth + 20;
+                pos.y = GetRandomValue(0, screenHeight);
+            }
 
             enemies[i].pos = pos;
-            enemies[i].speed = (float)GetRandomValue(60, 110);
+            enemies[i].speed = GetRandomValue(110, 200);
             enemies[i].active = true;
             break;
         }
@@ -281,9 +281,6 @@ static void DrawGame()
     }
 }
 
-//----------------------------------------------------------------------------------
-// Program main entry point
-//----------------------------------------------------------------------------------
 int main()
 {
     InitWindow(screenWidth, screenHeight, "Top-down survivor");
