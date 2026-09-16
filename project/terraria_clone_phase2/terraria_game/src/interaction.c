@@ -58,7 +58,8 @@ static bool TileOverlapsPlayer(const Player *player, int tileX, int tileY)
 }
 
 static void TryMineBlock(Interaction *interaction, World *world,
-                         ParticleSystem *particleSystem)
+                         ParticleSystem *particleSystem,
+                         DroppedItemSystem *droppedItemSystem)
 {
     TileType tileType = World_GetTile(world,
                                      interaction->targetTileX,
@@ -71,18 +72,30 @@ static void TryMineBlock(Interaction *interaction, World *world,
     Rectangle tileBounds = GetTileBounds(interaction->targetTileX,
                                          interaction->targetTileY);
     Color tileColor = Tile_GetColor(tileType);
+    Vector2 tileCenter = {
+        tileBounds.x + tileBounds.width / 2.0f,
+        tileBounds.y + tileBounds.height / 2.0f
+    };
 
     World_SetTile(world, interaction->targetTileX,
                   interaction->targetTileY, TILE_AIR);
     ParticleSystem_SpawnBlockBreak(particleSystem, tileBounds, tileColor);
+    DroppedItemSystem_Spawn(droppedItemSystem,
+                            Item_FromTileType(tileType), 1, tileCenter);
 }
 
 static void TryPlaceBlock(const Interaction *interaction, World *world,
-                          const Player *player)
+                          const Player *player, Inventory *inventory)
 {
     int tileX = interaction->targetTileX;
     int tileY = interaction->targetTileY;
+    const ItemStack *selectedStack = Inventory_GetSelectedStack(inventory);
+    TileType tileToPlace = Item_GetPlacedTile(selectedStack->type);
 
+    if (selectedStack->quantity <= 0 || tileToPlace == TILE_AIR)
+    {
+        return;
+    }
     if (World_GetTile(world, tileX, tileY) != TILE_AIR)
     {
         return;
@@ -96,9 +109,8 @@ static void TryPlaceBlock(const Interaction *interaction, World *world,
         return;
     }
 
-    /* Phase 5 will replace this unlimited dirt supply with the selected
-       inventory slot and will subtract one item after placement. */
-    World_SetTile(world, tileX, tileY, TILE_DIRT);
+    World_SetTile(world, tileX, tileY, tileToPlace);
+    Inventory_RemoveOneSelected(inventory);
 }
 
 void Interaction_Init(Interaction *interaction)
@@ -112,7 +124,9 @@ void Interaction_Init(Interaction *interaction)
 void Interaction_Update(Interaction *interaction, World *world,
                         const Player *player, Camera2D camera,
                         InteractionInput input,
-                        ParticleSystem *particleSystem)
+                        ParticleSystem *particleSystem,
+                        DroppedItemSystem *droppedItemSystem,
+                        Inventory *inventory)
 {
     Vector2 mouseWorldPosition =
         GetScreenToWorld2D(input.mouseScreenPosition, camera);
@@ -136,11 +150,11 @@ void Interaction_Update(Interaction *interaction, World *world,
 
     if (input.minePressed)
     {
-        TryMineBlock(interaction, world, particleSystem);
+        TryMineBlock(interaction, world, particleSystem, droppedItemSystem);
     }
     else if (input.placePressed)
     {
-        TryPlaceBlock(interaction, world, player);
+        TryPlaceBlock(interaction, world, player, inventory);
     }
 }
 

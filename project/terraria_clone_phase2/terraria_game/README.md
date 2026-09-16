@@ -4,11 +4,11 @@ An educational, step-by-step recreation of a Terraria-like 2D sandbox game,
 built in plain C (C99) with Raylib. Each development phase is built and
 verified before moving to the next one.
 
-## Current status: Phase 4 - Interaction complete
+## Current status: Phase 5 - Inventory complete
 
 What exists right now:
 
-- Everything from Phases 1 through 3
+- Everything from Phases 1 through 4
 - A `Player` struct with position, velocity, size, and grounded state
 - Horizontal movement, jumping, gravity, and maximum fall speed
 - Axis-separated collision against solid world tiles
@@ -19,14 +19,21 @@ What exists right now:
 - Left-click mining with colored block-break particles
 - Right-click dirt placement on empty tiles beside existing solid tiles
 - Five-tile interaction reach and protection against placing inside the player
+- A ten-slot hotbar with 99 items per stack
+- Dirt, grass, and stone inventory item types
+- Collectible item drops created by mining blocks
+- Placement that consumes one item from the selected stack
+- Mouse-wheel and number-key hotbar selection
 
 Controls:
 
 - `A` / `D` or Left / Right arrows - move
 - `Space` - jump
-- Mouse wheel - zoom in/out
+- Mouse wheel - change the selected hotbar slot
+- Number keys `1` through `0` - select a hotbar slot directly
+- `Ctrl` + Mouse wheel - zoom in/out
 - Left click - mine the targeted block
-- Right click - place a dirt block
+- Right click - place the selected block
 
 ## Project structure
 
@@ -37,6 +44,9 @@ src/
 |-- camera_controller.c/.h - player-following Camera2D and zoom
 |-- input.c / input.h      - maps keyboard state to player commands
 |-- interaction.c/.h       - targeting, reach, mining, and placement
+|-- inventory.c/.h         - hotbar, selection, and item stacking
+|-- item.c / item.h        - item types and tile/item conversion
+|-- dropped_item.c/.h      - collectible world item entities
 |-- particle.c/.h          - fixed-pool block-break particles
 |-- player.c / player.h    - player physics, collision, and drawing
 |-- world.c / world.h      - 2D tile grid, visible-tile rendering
@@ -97,5 +107,5 @@ make clean
 - [x] Phase 2 - Tile world (tile enum, 2D array, visible-tile rendering)
 - [x] Phase 3 - Player (movement, gravity, collision, camera follow)
 - [x] Phase 4 - Interaction (mining, placing, reach distance, particles)
-- [ ] Phase 5 - Inventory (hotbar, stacking, pickup, selection)
+- [x] Phase 5 - Inventory (hotbar, stacking, pickup, selection)
 - [ ] Phase 6 - Procedural world (surface, caves, trees, ores)

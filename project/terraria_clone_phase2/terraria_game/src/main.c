@@ -39,15 +39,18 @@ int main(void)
                 Game_Draw(&game);
             EndMode2D();
 
+            Game_DrawUI(&game);
+
             /* Debug info drawn in screen space (outside the camera) */
             DrawFPS(10, 10);
-            DrawText("Phase 4: Block Interaction", 10, 35, 20, RAYWHITE);
-            DrawText("Move: A/D or Left/Right   Jump: Space   Zoom: Mouse Wheel", 10, 60, 18, LIGHTGRAY);
-            DrawText("Mine: Left Click   Place Dirt: Right Click   Reach: 5 tiles", 10, 85, 18, LIGHTGRAY);
+            DrawText("Phase 5: Inventory and Item Pickups", 10, 35, 20, RAYWHITE);
+            DrawText("Move: A/D or Left/Right   Jump: Space   Ctrl+Wheel: Zoom", 10, 60, 18, LIGHTGRAY);
+            DrawText("Mine: Left Click   Place Selected Block: Right Click", 10, 85, 18, LIGHTGRAY);
+            DrawText("Select Hotbar: Mouse Wheel or Number Keys 1-0", 10, 110, 18, LIGHTGRAY);
             DrawText(TextFormat("Player position: X %.1f  Y %.1f",
                                 game.player.position.x,
                                 game.player.position.y),
-                     10, 110, 18, LIGHTGRAY);
+                     10, 135, 18, LIGHTGRAY);
         EndDrawing();
     }
 

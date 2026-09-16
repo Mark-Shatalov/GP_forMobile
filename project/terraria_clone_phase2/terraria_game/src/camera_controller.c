@@ -61,8 +61,10 @@ void CameraController_Update(CameraController *controller,
     controller->camera.target.y +=
         (followTarget.y - controller->camera.target.y) * followAmount;
 
+    bool controlIsDown = IsKeyDown(KEY_LEFT_CONTROL) ||
+                         IsKeyDown(KEY_RIGHT_CONTROL);
     float wheelMove = GetMouseWheelMove();
-    if (wheelMove != 0.0f)
+    if (controlIsDown && wheelMove != 0.0f)
     {
         controller->camera.zoom += wheelMove * 0.1f;
 

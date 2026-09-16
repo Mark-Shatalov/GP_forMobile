@@ -26,10 +26,19 @@ typedef struct InteractionInput
     bool placePressed;
 } InteractionInput;
 
+typedef struct InventoryInput
+{
+    int slotChange;      /* -1 or 1 when the mouse wheel changes slots */
+    int directSlot;      /* 0-9 from number keys, or -1 when unused */
+} InventoryInput;
+
 /* Reads the keyboard once and returns the commands for this frame. */
 PlayerInput Input_GetPlayerInput(void);
 
 /* Reads mouse position and block-interaction buttons for this frame. */
 InteractionInput Input_GetInteractionInput(void);
+
+/* Reads hotbar selection controls. Ctrl + wheel is reserved for zoom. */
+InventoryInput Input_GetInventoryInput(void);
 
 #endif /* INPUT_H */

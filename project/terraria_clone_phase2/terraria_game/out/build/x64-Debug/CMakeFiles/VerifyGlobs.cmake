@@ -5,9 +5,12 @@
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/src/*.c")
 set(OLD_GLOB
   "C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/src/camera_controller.c"
+  "C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/src/dropped_item.c"
   "C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/src/game.c"
   "C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/src/input.c"
   "C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/src/interaction.c"
+  "C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/src/inventory.c"
+  "C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/src/item.c"
   "C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/src/main.c"
   "C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/src/particle.c"
   "C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/src/player.c"

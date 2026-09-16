@@ -8,11 +8,11 @@
 
     Implementation of the Game module.
 
-    Phase 4 scope:
-    - Keep the Phase 3 player and camera behavior
-    - Target nearby tiles with the mouse
-    - Mine and place blocks
-    - Update and draw block-break particles
+    Phase 5 scope:
+    - Store stackable items in a ten-slot hotbar
+    - Drop collectible items when blocks are mined
+    - Place and consume the selected block item
+    - Change the selected slot with the wheel or number keys
 */
 
 void Game_Init(Game *game)
@@ -29,6 +29,12 @@ void Game_Init(Game *game)
     Player_Init(&game->player, spawnPosition);
     Interaction_Init(&game->interaction);
     ParticleSystem_Init(&game->particleSystem);
+    Inventory_Init(&game->inventory);
+    DroppedItemSystem_Init(&game->droppedItemSystem);
+
+    /* A small starter stack makes placement immediately testable. Mined
+       blocks will stack into the same slot when the player collects them. */
+    Inventory_AddItem(&game->inventory, ITEM_DIRT, 20);
 
     game->cameraController.camera.target = Player_GetCenter(&game->player);
 }
@@ -37,22 +43,34 @@ void Game_Update(Game *game, float deltaTime)
 {
     PlayerInput input = Input_GetPlayerInput();
     InteractionInput interactionInput = Input_GetInteractionInput();
+    InventoryInput inventoryInput = Input_GetInventoryInput();
+
+    Inventory_UpdateSelection(&game->inventory, inventoryInput);
 
     Player_Update(&game->player, &game->world, input, deltaTime);
     CameraController_Update(&game->cameraController,
                             Player_GetCenter(&game->player), deltaTime);
     Interaction_Update(&game->interaction, &game->world, &game->player,
                        game->cameraController.camera, interactionInput,
-                       &game->particleSystem);
+                       &game->particleSystem, &game->droppedItemSystem,
+                       &game->inventory);
     ParticleSystem_Update(&game->particleSystem, deltaTime);
+    DroppedItemSystem_Update(&game->droppedItemSystem, &game->world,
+                             &game->player, &game->inventory, deltaTime);
 }
 
 void Game_Draw(Game *game)
 {
     World_Draw(&game->world, game->cameraController.camera);
+    DroppedItemSystem_Draw(&game->droppedItemSystem);
     ParticleSystem_Draw(&game->particleSystem);
     Player_Draw(&game->player);
     Interaction_Draw(&game->interaction);
+}
+
+void Game_DrawUI(const Game *game)
+{
+    Inventory_Draw(&game->inventory);
 }
 
 void Game_Shutdown(Game *game)

@@ -57,4 +57,12 @@
 #define BLOCK_BREAK_PARTICLES   10
 #define PARTICLE_GRAVITY        300.0f
 
+/* ---------- Inventory / dropped item settings ---------- */
+#define HOTBAR_SLOT_COUNT       10
+#define ITEM_MAX_STACK          99
+#define MAX_DROPPED_ITEMS       128
+#define DROPPED_ITEM_SIZE       8.0f
+#define DROPPED_ITEM_GRAVITY    600.0f
+#define ITEM_PICKUP_DELAY       0.25f
+
 #endif /* CONSTANTS_H */

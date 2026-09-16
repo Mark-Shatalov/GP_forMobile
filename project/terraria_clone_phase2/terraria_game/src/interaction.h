@@ -2,7 +2,9 @@
 #define INTERACTION_H
 
 #include <stdbool.h>
+#include "dropped_item.h"
 #include "input.h"
+#include "inventory.h"
 #include "particle.h"
 #include "player.h"
 #include "world.h"
@@ -29,7 +31,9 @@ void Interaction_Init(Interaction *interaction);
 void Interaction_Update(Interaction *interaction, World *world,
                         const Player *player, Camera2D camera,
                         InteractionInput input,
-                        ParticleSystem *particleSystem);
+                        ParticleSystem *particleSystem,
+                        DroppedItemSystem *droppedItemSystem,
+                        Inventory *inventory);
 
 /* Draws an outline over the tile under the mouse. */
 void Interaction_Draw(const Interaction *interaction);

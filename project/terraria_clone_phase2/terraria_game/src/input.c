@@ -35,3 +35,32 @@ InteractionInput Input_GetInteractionInput(void)
 
     return input;
 }
+
+InventoryInput Input_GetInventoryInput(void)
+{
+    InventoryInput input = { 0 };
+    input.directSlot = -1;
+
+    bool controlIsDown = IsKeyDown(KEY_LEFT_CONTROL) ||
+                         IsKeyDown(KEY_RIGHT_CONTROL);
+    float wheelMove = GetMouseWheelMove();
+
+    if (!controlIsDown)
+    {
+        if (wheelMove > 0.0f) input.slotChange = -1;
+        if (wheelMove < 0.0f) input.slotChange = 1;
+    }
+
+    if (IsKeyPressed(KEY_ONE))   input.directSlot = 0;
+    if (IsKeyPressed(KEY_TWO))   input.directSlot = 1;
+    if (IsKeyPressed(KEY_THREE)) input.directSlot = 2;
+    if (IsKeyPressed(KEY_FOUR))  input.directSlot = 3;
+    if (IsKeyPressed(KEY_FIVE))  input.directSlot = 4;
+    if (IsKeyPressed(KEY_SIX))   input.directSlot = 5;
+    if (IsKeyPressed(KEY_SEVEN)) input.directSlot = 6;
+    if (IsKeyPressed(KEY_EIGHT)) input.directSlot = 7;
+    if (IsKeyPressed(KEY_NINE))  input.directSlot = 8;
+    if (IsKeyPressed(KEY_ZERO))  input.directSlot = 9;
+
+    return input;
+}
