@@ -33,7 +33,6 @@
 #define GROUND_LEVEL_TILE   25
 
 /* ---------- Procedural world generation ---------- */
-#define WORLD_GENERATION_SEED     1337
 #define SURFACE_MIN_TILE          18
 #define SURFACE_MAX_TILE          32
 #define MIN_DIRT_LAYER_THICKNESS  4

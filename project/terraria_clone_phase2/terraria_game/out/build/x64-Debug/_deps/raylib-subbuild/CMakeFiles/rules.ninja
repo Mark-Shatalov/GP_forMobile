@@ -23,7 +23,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-subbuild -BC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-subbuild
+  command = "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-subbuild -BC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-subbuild
   description = Re-running CMake...
   generator = 1
 

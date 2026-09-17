@@ -75,7 +75,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug"
+			"value" : "c:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -159,10 +159,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "CXX compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/cl.exe"
 		},
 		{
@@ -271,10 +271,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "C compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/cl.exe"
 		},
 		{
@@ -519,7 +519,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -615,7 +615,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game"
+			"value" : "C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -819,7 +819,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/install/x64-Debug"
+			"value" : "C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/install/x64-Debug"
 		},
 		{
 			"name" : "CMAKE_INSTALL_RUNSTATEDIR",
@@ -1607,7 +1607,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps"
+			"value" : "C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps"
 		},
 		{
 			"name" : "FETCHCONTENT_FULLY_DISCONNECTED",
@@ -1707,7 +1707,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-build/raylib/external/glfw"
+			"value" : "C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-build/raylib/external/glfw"
 		},
 		{
 			"name" : "GLFW_BUILD_DOCS",
@@ -1851,7 +1851,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-src/src/external/glfw"
+			"value" : "C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-src/src/external/glfw"
 		},
 		{
 			"name" : "GLFW_USE_HYBRID_HPG",
@@ -2051,7 +2051,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/install/x64-Debug"
+			"value" : "C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/install/x64-Debug"
 		},
 		{
 			"name" : "raylib_BINARY_DIR",
@@ -2063,7 +2063,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-build/raylib"
+			"value" : "C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-build/raylib"
 		},
 		{
 			"name" : "raylib_IS_TOP_LEVEL",
@@ -2099,7 +2099,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-src/src"
+			"value" : "C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-src/src"
 		},
 		{
 			"name" : "terraria_clone_BINARY_DIR",
@@ -2111,7 +2111,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug"
+			"value" : "C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug"
 		},
 		{
 			"name" : "terraria_clone_IS_TOP_LEVEL",
@@ -2135,7 +2135,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game"
+			"value" : "C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game"
 		}
 	],
 	"kind" : "cache",

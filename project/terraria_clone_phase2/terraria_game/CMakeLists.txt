@@ -33,7 +33,7 @@ FetchContent_MakeAvailable(raylib)
 # ---------------------------------------------------------------------------
 # Our game
 # ---------------------------------------------------------------------------
-
+ 
 # Pull in every .c file under src/ automatically, so new modules added in
 # later phases (world.c, player.c, ...) don't require editing this file.
 file(GLOB PROJECT_SOURCES CONFIGURE_DEPENDS "${CMAKE_SOURCE_DIR}/src/*.c")

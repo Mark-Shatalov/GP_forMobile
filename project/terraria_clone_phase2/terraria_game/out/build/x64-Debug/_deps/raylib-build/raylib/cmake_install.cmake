@@ -1,8 +1,8 @@
-# Install script for directory: C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-src/src
+# Install script for directory: C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-src/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/install/x64-Debug")
+  set(CMAKE_INSTALL_PREFIX "C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/install/x64-Debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,38 +33,38 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-build/raylib/raylib.lib")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-build/raylib/raylib.lib")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES
-    "C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-src/src/raylib.h"
-    "C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-src/src/rlgl.h"
-    "C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-src/src/raymath.h"
+    "C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-src/src/raylib.h"
+    "C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-src/src/rlgl.h"
+    "C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-src/src/raymath.h"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-build/raylib/raylib.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-build/raylib/raylib.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/raylib" TYPE FILE FILES "C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-build/raylib/raylib-config-version.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/raylib" TYPE FILE FILES "C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-build/raylib/raylib-config-version.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/raylib" TYPE FILE FILES "C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-src/src/../cmake/raylib-config.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/raylib" TYPE FILE FILES "C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-src/src/../cmake/raylib-config.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-build/raylib/external/glfw/cmake_install.cmake")
+  include("C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-build/raylib/external/glfw/cmake_install.cmake")
 
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-build/raylib/install_local_manifest.txt"
+  file(WRITE "C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-build/raylib/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

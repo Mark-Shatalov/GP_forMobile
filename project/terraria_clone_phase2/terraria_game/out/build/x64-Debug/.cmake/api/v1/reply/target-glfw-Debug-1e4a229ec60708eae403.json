@@ -203,15 +203,15 @@
 			[
 				{
 					"backtrace" : 7,
-					"path" : "C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-src/src/external/glfw/include"
+					"path" : "C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-src/src/external/glfw/include"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-src/src/external/glfw/src"
+					"path" : "C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-src/src/external/glfw/src"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-build/raylib/external/glfw/src"
+					"path" : "C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-build/raylib/external/glfw/src"
 				}
 			],
 			"language" : "C",

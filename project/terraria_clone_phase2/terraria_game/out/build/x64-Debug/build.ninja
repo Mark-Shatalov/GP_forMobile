@@ -39,7 +39,7 @@ include CMakeFiles\rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\
+cmake_ninja_workdir = C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\
 # =============================================================================
 # Object build statements for EXECUTABLE target terraria_clone
 
@@ -49,143 +49,143 @@ cmake_ninja_workdir = C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase
 
 build cmake_object_order_depends_target_terraria_clone: phony || cmake_object_order_depends_target_glfw cmake_object_order_depends_target_raylib
 
-build CMakeFiles\terraria_clone.dir\src\camera_controller.c.obj: C_COMPILER__terraria_clone_unscanned_Debug C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\src\camera_controller.c || cmake_object_order_depends_target_terraria_clone
+build CMakeFiles\terraria_clone.dir\src\camera_controller.c.obj: C_COMPILER__terraria_clone_unscanned_Debug C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\src\camera_controller.c || cmake_object_order_depends_target_terraria_clone
   CONFIG = Debug
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include
+  INCLUDES = -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include
   OBJECT_DIR = CMakeFiles\terraria_clone.dir
   OBJECT_FILE_DIR = CMakeFiles\terraria_clone.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\terraria_clone.dir\
   TARGET_PDB = bin\terraria_clone.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\terraria_clone.dir
 
-build CMakeFiles\terraria_clone.dir\src\dropped_item.c.obj: C_COMPILER__terraria_clone_unscanned_Debug C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\src\dropped_item.c || cmake_object_order_depends_target_terraria_clone
+build CMakeFiles\terraria_clone.dir\src\dropped_item.c.obj: C_COMPILER__terraria_clone_unscanned_Debug C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\src\dropped_item.c || cmake_object_order_depends_target_terraria_clone
   CONFIG = Debug
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include
+  INCLUDES = -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include
   OBJECT_DIR = CMakeFiles\terraria_clone.dir
   OBJECT_FILE_DIR = CMakeFiles\terraria_clone.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\terraria_clone.dir\
   TARGET_PDB = bin\terraria_clone.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\terraria_clone.dir
 
-build CMakeFiles\terraria_clone.dir\src\game.c.obj: C_COMPILER__terraria_clone_unscanned_Debug C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\src\game.c || cmake_object_order_depends_target_terraria_clone
+build CMakeFiles\terraria_clone.dir\src\game.c.obj: C_COMPILER__terraria_clone_unscanned_Debug C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\src\game.c || cmake_object_order_depends_target_terraria_clone
   CONFIG = Debug
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include
+  INCLUDES = -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include
   OBJECT_DIR = CMakeFiles\terraria_clone.dir
   OBJECT_FILE_DIR = CMakeFiles\terraria_clone.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\terraria_clone.dir\
   TARGET_PDB = bin\terraria_clone.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\terraria_clone.dir
 
-build CMakeFiles\terraria_clone.dir\src\input.c.obj: C_COMPILER__terraria_clone_unscanned_Debug C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\src\input.c || cmake_object_order_depends_target_terraria_clone
+build CMakeFiles\terraria_clone.dir\src\input.c.obj: C_COMPILER__terraria_clone_unscanned_Debug C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\src\input.c || cmake_object_order_depends_target_terraria_clone
   CONFIG = Debug
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include
+  INCLUDES = -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include
   OBJECT_DIR = CMakeFiles\terraria_clone.dir
   OBJECT_FILE_DIR = CMakeFiles\terraria_clone.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\terraria_clone.dir\
   TARGET_PDB = bin\terraria_clone.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\terraria_clone.dir
 
-build CMakeFiles\terraria_clone.dir\src\interaction.c.obj: C_COMPILER__terraria_clone_unscanned_Debug C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\src\interaction.c || cmake_object_order_depends_target_terraria_clone
+build CMakeFiles\terraria_clone.dir\src\interaction.c.obj: C_COMPILER__terraria_clone_unscanned_Debug C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\src\interaction.c || cmake_object_order_depends_target_terraria_clone
   CONFIG = Debug
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include
+  INCLUDES = -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include
   OBJECT_DIR = CMakeFiles\terraria_clone.dir
   OBJECT_FILE_DIR = CMakeFiles\terraria_clone.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\terraria_clone.dir\
   TARGET_PDB = bin\terraria_clone.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\terraria_clone.dir
 
-build CMakeFiles\terraria_clone.dir\src\inventory.c.obj: C_COMPILER__terraria_clone_unscanned_Debug C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\src\inventory.c || cmake_object_order_depends_target_terraria_clone
+build CMakeFiles\terraria_clone.dir\src\inventory.c.obj: C_COMPILER__terraria_clone_unscanned_Debug C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\src\inventory.c || cmake_object_order_depends_target_terraria_clone
   CONFIG = Debug
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include
+  INCLUDES = -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include
   OBJECT_DIR = CMakeFiles\terraria_clone.dir
   OBJECT_FILE_DIR = CMakeFiles\terraria_clone.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\terraria_clone.dir\
   TARGET_PDB = bin\terraria_clone.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\terraria_clone.dir
 
-build CMakeFiles\terraria_clone.dir\src\item.c.obj: C_COMPILER__terraria_clone_unscanned_Debug C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\src\item.c || cmake_object_order_depends_target_terraria_clone
+build CMakeFiles\terraria_clone.dir\src\item.c.obj: C_COMPILER__terraria_clone_unscanned_Debug C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\src\item.c || cmake_object_order_depends_target_terraria_clone
   CONFIG = Debug
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include
+  INCLUDES = -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include
   OBJECT_DIR = CMakeFiles\terraria_clone.dir
   OBJECT_FILE_DIR = CMakeFiles\terraria_clone.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\terraria_clone.dir\
   TARGET_PDB = bin\terraria_clone.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\terraria_clone.dir
 
-build CMakeFiles\terraria_clone.dir\src\main.c.obj: C_COMPILER__terraria_clone_unscanned_Debug C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\src\main.c || cmake_object_order_depends_target_terraria_clone
+build CMakeFiles\terraria_clone.dir\src\main.c.obj: C_COMPILER__terraria_clone_unscanned_Debug C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\src\main.c || cmake_object_order_depends_target_terraria_clone
   CONFIG = Debug
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include
+  INCLUDES = -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include
   OBJECT_DIR = CMakeFiles\terraria_clone.dir
   OBJECT_FILE_DIR = CMakeFiles\terraria_clone.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\terraria_clone.dir\
   TARGET_PDB = bin\terraria_clone.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\terraria_clone.dir
 
-build CMakeFiles\terraria_clone.dir\src\particle.c.obj: C_COMPILER__terraria_clone_unscanned_Debug C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\src\particle.c || cmake_object_order_depends_target_terraria_clone
+build CMakeFiles\terraria_clone.dir\src\particle.c.obj: C_COMPILER__terraria_clone_unscanned_Debug C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\src\particle.c || cmake_object_order_depends_target_terraria_clone
   CONFIG = Debug
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include
+  INCLUDES = -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include
   OBJECT_DIR = CMakeFiles\terraria_clone.dir
   OBJECT_FILE_DIR = CMakeFiles\terraria_clone.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\terraria_clone.dir\
   TARGET_PDB = bin\terraria_clone.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\terraria_clone.dir
 
-build CMakeFiles\terraria_clone.dir\src\player.c.obj: C_COMPILER__terraria_clone_unscanned_Debug C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\src\player.c || cmake_object_order_depends_target_terraria_clone
+build CMakeFiles\terraria_clone.dir\src\player.c.obj: C_COMPILER__terraria_clone_unscanned_Debug C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\src\player.c || cmake_object_order_depends_target_terraria_clone
   CONFIG = Debug
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include
+  INCLUDES = -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include
   OBJECT_DIR = CMakeFiles\terraria_clone.dir
   OBJECT_FILE_DIR = CMakeFiles\terraria_clone.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\terraria_clone.dir\
   TARGET_PDB = bin\terraria_clone.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\terraria_clone.dir
 
-build CMakeFiles\terraria_clone.dir\src\tile.c.obj: C_COMPILER__terraria_clone_unscanned_Debug C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\src\tile.c || cmake_object_order_depends_target_terraria_clone
+build CMakeFiles\terraria_clone.dir\src\tile.c.obj: C_COMPILER__terraria_clone_unscanned_Debug C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\src\tile.c || cmake_object_order_depends_target_terraria_clone
   CONFIG = Debug
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include
+  INCLUDES = -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include
   OBJECT_DIR = CMakeFiles\terraria_clone.dir
   OBJECT_FILE_DIR = CMakeFiles\terraria_clone.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\terraria_clone.dir\
   TARGET_PDB = bin\terraria_clone.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\terraria_clone.dir
 
-build CMakeFiles\terraria_clone.dir\src\world.c.obj: C_COMPILER__terraria_clone_unscanned_Debug C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\src\world.c || cmake_object_order_depends_target_terraria_clone
+build CMakeFiles\terraria_clone.dir\src\world.c.obj: C_COMPILER__terraria_clone_unscanned_Debug C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\src\world.c || cmake_object_order_depends_target_terraria_clone
   CONFIG = Debug
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include
+  INCLUDES = -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include
   OBJECT_DIR = CMakeFiles\terraria_clone.dir
   OBJECT_FILE_DIR = CMakeFiles\terraria_clone.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\terraria_clone.dir\
   TARGET_PDB = bin\terraria_clone.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\terraria_clone.dir
 
-build CMakeFiles\terraria_clone.dir\src\world_generation.c.obj: C_COMPILER__terraria_clone_unscanned_Debug C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\src\world_generation.c || cmake_object_order_depends_target_terraria_clone
+build CMakeFiles\terraria_clone.dir\src\world_generation.c.obj: C_COMPILER__terraria_clone_unscanned_Debug C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\src\world_generation.c || cmake_object_order_depends_target_terraria_clone
   CONFIG = Debug
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include
+  INCLUDES = -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include
   OBJECT_DIR = CMakeFiles\terraria_clone.dir
   OBJECT_FILE_DIR = CMakeFiles\terraria_clone.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\terraria_clone.dir\
@@ -219,7 +219,7 @@ build bin\terraria_clone.exe: C_EXECUTABLE_LINKER__terraria_clone_Debug CMakeFil
 # Utility command for package
 
 build CMakeFiles\package.util: CUSTOM_COMMAND all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
   DESC = Run CPack packaging tool...
   pool = console
   restat = 1
@@ -231,7 +231,7 @@ build package: phony CMakeFiles\package.util
 # Utility command for package_source
 
 build CMakeFiles\package_source.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
   DESC = Run CPack packaging tool for source...
   pool = console
   restat = 1
@@ -243,7 +243,7 @@ build package_source: phony CMakeFiles\package_source.util
 # Utility command for edit_cache
 
 build CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -254,7 +254,7 @@ build edit_cache: phony CMakeFiles\edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game -BC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game -BC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -272,7 +272,7 @@ build list_install_components: phony
 # Utility command for install
 
 build CMakeFiles\install.util: CUSTOM_COMMAND all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -284,7 +284,7 @@ build install: phony CMakeFiles\install.util
 # Utility command for install/local
 
 build CMakeFiles\install\local.util: CUSTOM_COMMAND all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -293,7 +293,7 @@ build install\local: phony CMakeFiles\install\local.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/CMakeLists.txt
+# C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/CMakeLists.txt
 # =============================================================================
 
 
@@ -307,7 +307,7 @@ build _deps\raylib-build\uninstall: phony _deps\raylib-build\CMakeFiles\uninstal
 # Utility command for package
 
 build _deps\raylib-build\CMakeFiles\package.util: CUSTOM_COMMAND _deps\raylib-build\all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
   DESC = Run CPack packaging tool...
   pool = console
   restat = 1
@@ -319,7 +319,7 @@ build _deps\raylib-build\package: phony _deps\raylib-build\CMakeFiles\package.ut
 # Utility command for package_source
 
 build _deps\raylib-build\CMakeFiles\package_source.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
   DESC = Run CPack packaging tool for source...
   pool = console
   restat = 1
@@ -331,7 +331,7 @@ build _deps\raylib-build\package_source: phony _deps\raylib-build\CMakeFiles\pac
 # Utility command for edit_cache
 
 build _deps\raylib-build\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -342,7 +342,7 @@ build _deps\raylib-build\edit_cache: phony _deps\raylib-build\CMakeFiles\edit_ca
 # Utility command for rebuild_cache
 
 build _deps\raylib-build\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game -BC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game -BC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -360,7 +360,7 @@ build _deps\raylib-build\list_install_components: phony
 # Utility command for install
 
 build _deps\raylib-build\CMakeFiles\install.util: CUSTOM_COMMAND _deps\raylib-build\all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -372,7 +372,7 @@ build _deps\raylib-build\install: phony _deps\raylib-build\CMakeFiles\install.ut
 # Utility command for install/local
 
 build _deps\raylib-build\CMakeFiles\install\local.util: CUSTOM_COMMAND _deps\raylib-build\all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -384,11 +384,11 @@ build _deps\raylib-build\install\local: phony _deps\raylib-build\CMakeFiles\inst
 # Custom command for _deps\raylib-build\CMakeFiles\uninstall
 
 build _deps\raylib-build\CMakeFiles\uninstall | ${cmake_ninja_workdir}_deps\raylib-build\CMakeFiles\uninstall: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-build/cmake_uninstall.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-build/cmake_uninstall.cmake"
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-src/CMakeLists.txt
+# C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-src/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -400,77 +400,77 @@ build _deps\raylib-build\CMakeFiles\uninstall | ${cmake_ninja_workdir}_deps\rayl
 
 build cmake_object_order_depends_target_raylib: phony || cmake_object_order_depends_target_glfw
 
-build _deps\raylib-build\raylib\CMakeFiles\raylib.dir\raudio.c.obj: C_COMPILER__raylib_unscanned_Debug C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\raudio.c || cmake_object_order_depends_target_raylib
+build _deps\raylib-build\raylib\CMakeFiles\raylib.dir\raudio.c.obj: C_COMPILER__raylib_unscanned_Debug C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\raudio.c || cmake_object_order_depends_target_raylib
   CONFIG = Debug
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src -external:IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -external:W0
+  INCLUDES = -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src -external:IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -external:W0
   OBJECT_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
   TARGET_COMPILE_PDB = _deps\raylib-build\raylib\CMakeFiles\raylib.dir\raylib.pdb
   TARGET_PDB = _deps\raylib-build\raylib\raylib.pdb
   TARGET_SUPPORT_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
 
-build _deps\raylib-build\raylib\CMakeFiles\raylib.dir\rcore.c.obj: C_COMPILER__raylib_unscanned_Debug C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\rcore.c || cmake_object_order_depends_target_raylib
+build _deps\raylib-build\raylib\CMakeFiles\raylib.dir\rcore.c.obj: C_COMPILER__raylib_unscanned_Debug C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\rcore.c || cmake_object_order_depends_target_raylib
   CONFIG = Debug
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src -external:IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -external:W0
+  INCLUDES = -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src -external:IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -external:W0
   OBJECT_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
   TARGET_COMPILE_PDB = _deps\raylib-build\raylib\CMakeFiles\raylib.dir\raylib.pdb
   TARGET_PDB = _deps\raylib-build\raylib\raylib.pdb
   TARGET_SUPPORT_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
 
-build _deps\raylib-build\raylib\CMakeFiles\raylib.dir\rmodels.c.obj: C_COMPILER__raylib_unscanned_Debug C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\rmodels.c || cmake_object_order_depends_target_raylib
+build _deps\raylib-build\raylib\CMakeFiles\raylib.dir\rmodels.c.obj: C_COMPILER__raylib_unscanned_Debug C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\rmodels.c || cmake_object_order_depends_target_raylib
   CONFIG = Debug
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src -external:IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -external:W0
+  INCLUDES = -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src -external:IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -external:W0
   OBJECT_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
   TARGET_COMPILE_PDB = _deps\raylib-build\raylib\CMakeFiles\raylib.dir\raylib.pdb
   TARGET_PDB = _deps\raylib-build\raylib\raylib.pdb
   TARGET_SUPPORT_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
 
-build _deps\raylib-build\raylib\CMakeFiles\raylib.dir\rshapes.c.obj: C_COMPILER__raylib_unscanned_Debug C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\rshapes.c || cmake_object_order_depends_target_raylib
+build _deps\raylib-build\raylib\CMakeFiles\raylib.dir\rshapes.c.obj: C_COMPILER__raylib_unscanned_Debug C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\rshapes.c || cmake_object_order_depends_target_raylib
   CONFIG = Debug
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src -external:IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -external:W0
+  INCLUDES = -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src -external:IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -external:W0
   OBJECT_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
   TARGET_COMPILE_PDB = _deps\raylib-build\raylib\CMakeFiles\raylib.dir\raylib.pdb
   TARGET_PDB = _deps\raylib-build\raylib\raylib.pdb
   TARGET_SUPPORT_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
 
-build _deps\raylib-build\raylib\CMakeFiles\raylib.dir\rtext.c.obj: C_COMPILER__raylib_unscanned_Debug C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\rtext.c || cmake_object_order_depends_target_raylib
+build _deps\raylib-build\raylib\CMakeFiles\raylib.dir\rtext.c.obj: C_COMPILER__raylib_unscanned_Debug C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\rtext.c || cmake_object_order_depends_target_raylib
   CONFIG = Debug
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src -external:IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -external:W0
+  INCLUDES = -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src -external:IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -external:W0
   OBJECT_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
   TARGET_COMPILE_PDB = _deps\raylib-build\raylib\CMakeFiles\raylib.dir\raylib.pdb
   TARGET_PDB = _deps\raylib-build\raylib\raylib.pdb
   TARGET_SUPPORT_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
 
-build _deps\raylib-build\raylib\CMakeFiles\raylib.dir\rtextures.c.obj: C_COMPILER__raylib_unscanned_Debug C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\rtextures.c || cmake_object_order_depends_target_raylib
+build _deps\raylib-build\raylib\CMakeFiles\raylib.dir\rtextures.c.obj: C_COMPILER__raylib_unscanned_Debug C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\rtextures.c || cmake_object_order_depends_target_raylib
   CONFIG = Debug
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src -external:IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -external:W0
+  INCLUDES = -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src -external:IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -external:W0
   OBJECT_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
   TARGET_COMPILE_PDB = _deps\raylib-build\raylib\CMakeFiles\raylib.dir\raylib.pdb
   TARGET_PDB = _deps\raylib-build\raylib\raylib.pdb
   TARGET_SUPPORT_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
 
-build _deps\raylib-build\raylib\CMakeFiles\raylib.dir\utils.c.obj: C_COMPILER__raylib_unscanned_Debug C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\utils.c || cmake_object_order_depends_target_raylib
+build _deps\raylib-build\raylib\CMakeFiles\raylib.dir\utils.c.obj: C_COMPILER__raylib_unscanned_Debug C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\utils.c || cmake_object_order_depends_target_raylib
   CONFIG = Debug
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src -external:IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -external:W0
+  INCLUDES = -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src -external:IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -external:W0
   OBJECT_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
   TARGET_COMPILE_PDB = _deps\raylib-build\raylib\CMakeFiles\raylib.dir\raylib.pdb
@@ -502,7 +502,7 @@ build _deps\raylib-build\raylib\raylib.lib: C_STATIC_LIBRARY_LINKER__raylib_Debu
 # Utility command for package
 
 build _deps\raylib-build\raylib\CMakeFiles\package.util: CUSTOM_COMMAND _deps\raylib-build\raylib\all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
   DESC = Run CPack packaging tool...
   pool = console
   restat = 1
@@ -514,7 +514,7 @@ build _deps\raylib-build\raylib\package: phony _deps\raylib-build\raylib\CMakeFi
 # Utility command for package_source
 
 build _deps\raylib-build\raylib\CMakeFiles\package_source.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
   DESC = Run CPack packaging tool for source...
   pool = console
   restat = 1
@@ -526,7 +526,7 @@ build _deps\raylib-build\raylib\package_source: phony _deps\raylib-build\raylib\
 # Utility command for edit_cache
 
 build _deps\raylib-build\raylib\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -537,7 +537,7 @@ build _deps\raylib-build\raylib\edit_cache: phony _deps\raylib-build\raylib\CMak
 # Utility command for rebuild_cache
 
 build _deps\raylib-build\raylib\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game -BC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game -BC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -555,7 +555,7 @@ build _deps\raylib-build\raylib\list_install_components: phony
 # Utility command for install
 
 build _deps\raylib-build\raylib\CMakeFiles\install.util: CUSTOM_COMMAND _deps\raylib-build\raylib\all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -567,7 +567,7 @@ build _deps\raylib-build\raylib\install: phony _deps\raylib-build\raylib\CMakeFi
 # Utility command for install/local
 
 build _deps\raylib-build\raylib\CMakeFiles\install\local.util: CUSTOM_COMMAND _deps\raylib-build\raylib\all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -576,7 +576,7 @@ build _deps\raylib-build\raylib\install\local: phony _deps\raylib-build\raylib\C
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-src/cmake/GlfwImport.cmake
+# C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-src/cmake/GlfwImport.cmake
 # =============================================================================
 
 
@@ -584,7 +584,7 @@ build _deps\raylib-build\raylib\install\local: phony _deps\raylib-build\raylib\C
 # Utility command for package
 
 build _deps\raylib-build\raylib\external\glfw\CMakeFiles\package.util: CUSTOM_COMMAND _deps\raylib-build\raylib\external\glfw\all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
   DESC = Run CPack packaging tool...
   pool = console
   restat = 1
@@ -596,7 +596,7 @@ build _deps\raylib-build\raylib\external\glfw\package: phony _deps\raylib-build\
 # Utility command for package_source
 
 build _deps\raylib-build\raylib\external\glfw\CMakeFiles\package_source.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
   DESC = Run CPack packaging tool for source...
   pool = console
   restat = 1
@@ -608,7 +608,7 @@ build _deps\raylib-build\raylib\external\glfw\package_source: phony _deps\raylib
 # Utility command for edit_cache
 
 build _deps\raylib-build\raylib\external\glfw\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -619,7 +619,7 @@ build _deps\raylib-build\raylib\external\glfw\edit_cache: phony _deps\raylib-bui
 # Utility command for rebuild_cache
 
 build _deps\raylib-build\raylib\external\glfw\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game -BC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game -BC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -637,7 +637,7 @@ build _deps\raylib-build\raylib\external\glfw\list_install_components: phony
 # Utility command for install
 
 build _deps\raylib-build\raylib\external\glfw\CMakeFiles\install.util: CUSTOM_COMMAND _deps\raylib-build\raylib\external\glfw\all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -649,7 +649,7 @@ build _deps\raylib-build\raylib\external\glfw\install: phony _deps\raylib-build\
 # Utility command for install/local
 
 build _deps\raylib-build\raylib\external\glfw\CMakeFiles\install\local.util: CUSTOM_COMMAND _deps\raylib-build\raylib\external\glfw\all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -658,7 +658,7 @@ build _deps\raylib-build\raylib\external\glfw\install\local: phony _deps\raylib-
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-src/src/external/glfw/CMakeLists.txt
+# C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-src/src/external/glfw/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -670,231 +670,231 @@ build _deps\raylib-build\raylib\external\glfw\install\local: phony _deps\raylib-
 
 build cmake_object_order_depends_target_glfw: phony || .
 
-build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src\context.c || cmake_object_order_depends_target_glfw
+build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src\context.c || cmake_object_order_depends_target_glfw
   CONFIG = Debug
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src
+  INCLUDES = -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src
   OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\
   TARGET_PDB = ""
   TARGET_SUPPORT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src\init.c || cmake_object_order_depends_target_glfw
+build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src\init.c || cmake_object_order_depends_target_glfw
   CONFIG = Debug
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src
+  INCLUDES = -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src
   OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\
   TARGET_PDB = ""
   TARGET_SUPPORT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\input.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src\input.c || cmake_object_order_depends_target_glfw
+build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\input.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src\input.c || cmake_object_order_depends_target_glfw
   CONFIG = Debug
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src
+  INCLUDES = -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src
   OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\
   TARGET_PDB = ""
   TARGET_SUPPORT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src\monitor.c || cmake_object_order_depends_target_glfw
+build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src\monitor.c || cmake_object_order_depends_target_glfw
   CONFIG = Debug
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src
+  INCLUDES = -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src
   OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\
   TARGET_PDB = ""
   TARGET_SUPPORT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\platform.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src\platform.c || cmake_object_order_depends_target_glfw
+build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\platform.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src\platform.c || cmake_object_order_depends_target_glfw
   CONFIG = Debug
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src
+  INCLUDES = -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src
   OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\
   TARGET_PDB = ""
   TARGET_SUPPORT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\vulkan.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src\vulkan.c || cmake_object_order_depends_target_glfw
+build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\vulkan.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src\vulkan.c || cmake_object_order_depends_target_glfw
   CONFIG = Debug
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src
+  INCLUDES = -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src
   OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\
   TARGET_PDB = ""
   TARGET_SUPPORT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src\window.c || cmake_object_order_depends_target_glfw
+build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src\window.c || cmake_object_order_depends_target_glfw
   CONFIG = Debug
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src
+  INCLUDES = -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src
   OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\
   TARGET_PDB = ""
   TARGET_SUPPORT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\egl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src\egl_context.c || cmake_object_order_depends_target_glfw
+build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\egl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src\egl_context.c || cmake_object_order_depends_target_glfw
   CONFIG = Debug
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src
+  INCLUDES = -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src
   OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\
   TARGET_PDB = ""
   TARGET_SUPPORT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\osmesa_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src\osmesa_context.c || cmake_object_order_depends_target_glfw
+build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\osmesa_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src\osmesa_context.c || cmake_object_order_depends_target_glfw
   CONFIG = Debug
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src
+  INCLUDES = -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src
   OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\
   TARGET_PDB = ""
   TARGET_SUPPORT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\null_init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src\null_init.c || cmake_object_order_depends_target_glfw
+build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\null_init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src\null_init.c || cmake_object_order_depends_target_glfw
   CONFIG = Debug
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src
+  INCLUDES = -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src
   OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\
   TARGET_PDB = ""
   TARGET_SUPPORT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\null_monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src\null_monitor.c || cmake_object_order_depends_target_glfw
+build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\null_monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src\null_monitor.c || cmake_object_order_depends_target_glfw
   CONFIG = Debug
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src
+  INCLUDES = -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src
   OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\
   TARGET_PDB = ""
   TARGET_SUPPORT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\null_window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src\null_window.c || cmake_object_order_depends_target_glfw
+build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\null_window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src\null_window.c || cmake_object_order_depends_target_glfw
   CONFIG = Debug
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src
+  INCLUDES = -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src
   OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\
   TARGET_PDB = ""
   TARGET_SUPPORT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\null_joystick.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src\null_joystick.c || cmake_object_order_depends_target_glfw
+build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\null_joystick.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src\null_joystick.c || cmake_object_order_depends_target_glfw
   CONFIG = Debug
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src
+  INCLUDES = -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src
   OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\
   TARGET_PDB = ""
   TARGET_SUPPORT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_module.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src\win32_module.c || cmake_object_order_depends_target_glfw
+build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_module.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src\win32_module.c || cmake_object_order_depends_target_glfw
   CONFIG = Debug
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src
+  INCLUDES = -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src
   OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\
   TARGET_PDB = ""
   TARGET_SUPPORT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_time.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src\win32_time.c || cmake_object_order_depends_target_glfw
+build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_time.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src\win32_time.c || cmake_object_order_depends_target_glfw
   CONFIG = Debug
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src
+  INCLUDES = -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src
   OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\
   TARGET_PDB = ""
   TARGET_SUPPORT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_thread.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src\win32_thread.c || cmake_object_order_depends_target_glfw
+build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_thread.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src\win32_thread.c || cmake_object_order_depends_target_glfw
   CONFIG = Debug
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src
+  INCLUDES = -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src
   OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\
   TARGET_PDB = ""
   TARGET_SUPPORT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src\win32_init.c || cmake_object_order_depends_target_glfw
+build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src\win32_init.c || cmake_object_order_depends_target_glfw
   CONFIG = Debug
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src
+  INCLUDES = -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src
   OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\
   TARGET_PDB = ""
   TARGET_SUPPORT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_joystick.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src\win32_joystick.c || cmake_object_order_depends_target_glfw
+build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_joystick.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src\win32_joystick.c || cmake_object_order_depends_target_glfw
   CONFIG = Debug
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src
+  INCLUDES = -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src
   OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\
   TARGET_PDB = ""
   TARGET_SUPPORT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src\win32_monitor.c || cmake_object_order_depends_target_glfw
+build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src\win32_monitor.c || cmake_object_order_depends_target_glfw
   CONFIG = Debug
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src
+  INCLUDES = -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src
   OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\
   TARGET_PDB = ""
   TARGET_SUPPORT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src\win32_window.c || cmake_object_order_depends_target_glfw
+build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src\win32_window.c || cmake_object_order_depends_target_glfw
   CONFIG = Debug
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src
+  INCLUDES = -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src
   OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\
   TARGET_PDB = ""
   TARGET_SUPPORT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\wgl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src\wgl_context.c || cmake_object_order_depends_target_glfw
+build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\wgl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src\wgl_context.c || cmake_object_order_depends_target_glfw
   CONFIG = Debug
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src -IC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src
+  INCLUDES = -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src -IC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src
   OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\
@@ -919,7 +919,7 @@ build _deps\raylib-build\raylib\external\glfw\src\update_mappings: phony _deps\r
 # Utility command for package
 
 build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\package.util: CUSTOM_COMMAND _deps\raylib-build\raylib\external\glfw\src\all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
   DESC = Run CPack packaging tool...
   pool = console
   restat = 1
@@ -931,7 +931,7 @@ build _deps\raylib-build\raylib\external\glfw\src\package: phony _deps\raylib-bu
 # Utility command for package_source
 
 build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\package_source.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
   DESC = Run CPack packaging tool for source...
   pool = console
   restat = 1
@@ -943,7 +943,7 @@ build _deps\raylib-build\raylib\external\glfw\src\package_source: phony _deps\ra
 # Utility command for edit_cache
 
 build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -954,7 +954,7 @@ build _deps\raylib-build\raylib\external\glfw\src\edit_cache: phony _deps\raylib
 # Utility command for rebuild_cache
 
 build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game -BC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game -BC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -972,7 +972,7 @@ build _deps\raylib-build\raylib\external\glfw\src\list_install_components: phony
 # Utility command for install
 
 build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\install.util: CUSTOM_COMMAND _deps\raylib-build\raylib\external\glfw\src\all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -984,7 +984,7 @@ build _deps\raylib-build\raylib\external\glfw\src\install: phony _deps\raylib-bu
 # Utility command for install/local
 
 build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\install\local.util: CUSTOM_COMMAND _deps\raylib-build\raylib\external\glfw\src\all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -996,7 +996,7 @@ build _deps\raylib-build\raylib\external\glfw\src\install\local: phony _deps\ray
 # Custom command for _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\update_mappings
 
 build _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\update_mappings | ${cmake_ninja_workdir}_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\update_mappings: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-src/src/external/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\src && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-src/src/external/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h"
   DESC = Updating gamepad mappings from upstream repository
 
 # =============================================================================
@@ -1022,35 +1022,35 @@ build update_mappings: phony _deps\raylib-build\raylib\external\glfw\src\update_
 # =============================================================================
 
 #############################################
-# Folder: C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug
+# Folder: C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug
 
 build all: phony bin\terraria_clone.exe _deps\raylib-build\all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-build
+# Folder: C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-build
 
 build _deps\raylib-build\all: phony _deps\raylib-build\raylib\all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-build/raylib
+# Folder: C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-build/raylib
 
 build _deps\raylib-build\raylib\all: phony _deps\raylib-build\raylib\raylib.lib _deps\raylib-build\raylib\external\glfw\all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-build/raylib/external/glfw
+# Folder: C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-build/raylib/external/glfw
 
 build _deps\raylib-build\raylib\external\glfw\all: phony _deps\raylib-build\raylib\external\glfw\src\all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-build/raylib/external/glfw/src
+# Folder: C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-build/raylib/external/glfw/src
 
 build _deps\raylib-build\raylib\external\glfw\src\all: phony _deps\raylib-build\raylib\external\glfw\src\glfw
 
@@ -1061,13 +1061,13 @@ build _deps\raylib-build\raylib\external\glfw\src\all: phony _deps\raylib-build\
 #############################################
 # Phony target to force glob verification run.
 
-build C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\CMakeFiles\VerifyGlobs.cmake_force: phony
+build C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\CMakeFiles\VerifyGlobs.cmake_force: phony
 
 
 #############################################
 # Re-run CMake to check if globbed directories changed.
 
-build C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\CMakeFiles\cmake.verify_globs: VERIFY_GLOBS | C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\CMakeFiles\VerifyGlobs.cmake_force
+build C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\CMakeFiles\cmake.verify_globs: VERIFY_GLOBS | C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\CMakeFiles\VerifyGlobs.cmake_force
   pool = console
   restat = 1
 
@@ -1075,14 +1075,14 @@ build C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\cmake_install.cmake C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\cmake_install.cmake C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\cmake_install.cmake C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\cmake_install.cmake C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src\cmake_install.cmake C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\CTestTestfile.cmake C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\CTestTestfile.cmake: RERUN_CMAKE C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\CMakeFiles\cmake.verify_globs | C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\CMakeFiles\VerifyGlobs.cmake C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\CMakeLists.txt C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\BasicConfigVersion-SameMajorVersion.cmake.in C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeDependentOption.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakePackageConfigHelpers.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CPack.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CPackComponent.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckCCompilerFlag.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckCSourceCompiles.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckIncludeFile.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckLibraryExists.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\ExternalProject\shared_internal_commands.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FetchContent.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FetchContent\CMakeLists.cmake.in C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindGit.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindOpenGL.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindThreads.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\GNUInstallDirs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CheckCompilerFlag.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CheckFlagCommonConfig.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Linker\MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\WriteBasicConfigVersionFile.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Templates\CPackConfig.cmake.in CMakeCache.txt CMakeFiles\4.3.1-msvc1\CMakeCCompiler.cmake CMakeFiles\4.3.1-msvc1\CMakeCXXCompiler.cmake CMakeFiles\4.3.1-msvc1\CMakeRCCompiler.cmake CMakeFiles\4.3.1-msvc1\CMakeSystem.cmake _deps\raylib-src\CMakeLists.txt _deps\raylib-src\CMakeOptions.txt _deps\raylib-src\cmake\AddIfFlagCompiles.cmake _deps\raylib-src\cmake\CompileDefinitions.cmake _deps\raylib-src\cmake\CompilerFlags.cmake _deps\raylib-src\cmake\EnumOption.cmake _deps\raylib-src\cmake\GlfwImport.cmake _deps\raylib-src\cmake\InstallConfigurations.cmake _deps\raylib-src\cmake\JoinPaths.cmake _deps\raylib-src\cmake\LibraryConfigurations.cmake _deps\raylib-src\cmake\LibraryPathToLinkerFlags.cmake _deps\raylib-src\cmake\PackConfigurations.cmake _deps\raylib-src\cmake\ParseConfigHeader.cmake _deps\raylib-src\cmake\PopulateConfigVariablesLocally.cmake _deps\raylib-src\cmake\Uninstall.cmake _deps\raylib-src\cmake\raylib-config-version.cmake _deps\raylib-src\raylib.pc.in _deps\raylib-src\src\CMakeLists.txt _deps\raylib-src\src\external\glfw\CMakeLists.txt _deps\raylib-src\src\external\glfw\CMake\glfw3.pc.in _deps\raylib-src\src\external\glfw\CMake\glfw3Config.cmake.in _deps\raylib-src\src\external\glfw\src\CMakeLists.txt
+build build.ninja C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\cmake_install.cmake C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\cmake_install.cmake C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\cmake_install.cmake C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\cmake_install.cmake C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\external\glfw\src\cmake_install.cmake C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\CTestTestfile.cmake C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\_deps\raylib-build\raylib\CTestTestfile.cmake: RERUN_CMAKE C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\CMakeFiles\cmake.verify_globs | C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\CMakeFiles\VerifyGlobs.cmake C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\CMakeLists.txt C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\BasicConfigVersion-SameMajorVersion.cmake.in C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeDependentOption.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakePackageConfigHelpers.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CPack.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CPackComponent.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckCCompilerFlag.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckCSourceCompiles.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckIncludeFile.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckLibraryExists.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\ExternalProject\shared_internal_commands.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FetchContent.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FetchContent\CMakeLists.cmake.in C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindGit.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindOpenGL.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindThreads.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\GNUInstallDirs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CheckCompilerFlag.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CheckFlagCommonConfig.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Linker\MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\WriteBasicConfigVersionFile.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Templates\CPackConfig.cmake.in CMakeCache.txt CMakeFiles\4.3.1-msvc1\CMakeCCompiler.cmake CMakeFiles\4.3.1-msvc1\CMakeCXXCompiler.cmake CMakeFiles\4.3.1-msvc1\CMakeRCCompiler.cmake CMakeFiles\4.3.1-msvc1\CMakeSystem.cmake _deps\raylib-src\CMakeLists.txt _deps\raylib-src\CMakeOptions.txt _deps\raylib-src\cmake\AddIfFlagCompiles.cmake _deps\raylib-src\cmake\CompileDefinitions.cmake _deps\raylib-src\cmake\CompilerFlags.cmake _deps\raylib-src\cmake\EnumOption.cmake _deps\raylib-src\cmake\GlfwImport.cmake _deps\raylib-src\cmake\InstallConfigurations.cmake _deps\raylib-src\cmake\JoinPaths.cmake _deps\raylib-src\cmake\LibraryConfigurations.cmake _deps\raylib-src\cmake\LibraryPathToLinkerFlags.cmake _deps\raylib-src\cmake\PackConfigurations.cmake _deps\raylib-src\cmake\ParseConfigHeader.cmake _deps\raylib-src\cmake\PopulateConfigVariablesLocally.cmake _deps\raylib-src\cmake\Uninstall.cmake _deps\raylib-src\cmake\raylib-config-version.cmake _deps\raylib-src\raylib.pc.in _deps\raylib-src\src\CMakeLists.txt _deps\raylib-src\src\external\glfw\CMakeLists.txt _deps\raylib-src\src\external\glfw\CMake\glfw3.pc.in _deps\raylib-src\src\external\glfw\CMake\glfw3Config.cmake.in _deps\raylib-src\src\external\glfw\src\CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\CMakeFiles\VerifyGlobs.cmake C$:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\CMakeLists.txt C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\BasicConfigVersion-SameMajorVersion.cmake.in C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeDependentOption.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakePackageConfigHelpers.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CPack.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CPackComponent.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckCCompilerFlag.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckCSourceCompiles.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckIncludeFile.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckLibraryExists.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\ExternalProject\shared_internal_commands.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FetchContent.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FetchContent\CMakeLists.cmake.in C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindGit.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindOpenGL.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindThreads.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\GNUInstallDirs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CheckCompilerFlag.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CheckFlagCommonConfig.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Linker\MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\WriteBasicConfigVersionFile.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Templates\CPackConfig.cmake.in CMakeCache.txt CMakeFiles\4.3.1-msvc1\CMakeCCompiler.cmake CMakeFiles\4.3.1-msvc1\CMakeCXXCompiler.cmake CMakeFiles\4.3.1-msvc1\CMakeRCCompiler.cmake CMakeFiles\4.3.1-msvc1\CMakeSystem.cmake _deps\raylib-src\CMakeLists.txt _deps\raylib-src\CMakeOptions.txt _deps\raylib-src\cmake\AddIfFlagCompiles.cmake _deps\raylib-src\cmake\CompileDefinitions.cmake _deps\raylib-src\cmake\CompilerFlags.cmake _deps\raylib-src\cmake\EnumOption.cmake _deps\raylib-src\cmake\GlfwImport.cmake _deps\raylib-src\cmake\InstallConfigurations.cmake _deps\raylib-src\cmake\JoinPaths.cmake _deps\raylib-src\cmake\LibraryConfigurations.cmake _deps\raylib-src\cmake\LibraryPathToLinkerFlags.cmake _deps\raylib-src\cmake\PackConfigurations.cmake _deps\raylib-src\cmake\ParseConfigHeader.cmake _deps\raylib-src\cmake\PopulateConfigVariablesLocally.cmake _deps\raylib-src\cmake\Uninstall.cmake _deps\raylib-src\cmake\raylib-config-version.cmake _deps\raylib-src\raylib.pc.in _deps\raylib-src\src\CMakeLists.txt _deps\raylib-src\src\external\glfw\CMakeLists.txt _deps\raylib-src\src\external\glfw\CMake\glfw3.pc.in _deps\raylib-src\src\external\glfw\CMake\glfw3Config.cmake.in _deps\raylib-src\src\external\glfw\src\CMakeLists.txt: phony
+build C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\CMakeFiles\VerifyGlobs.cmake C$:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\CMakeLists.txt C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\BasicConfigVersion-SameMajorVersion.cmake.in C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeDependentOption.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakePackageConfigHelpers.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CPack.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CPackComponent.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckCCompilerFlag.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckCSourceCompiles.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckIncludeFile.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckLibraryExists.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\ExternalProject\shared_internal_commands.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FetchContent.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FetchContent\CMakeLists.cmake.in C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindGit.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindOpenGL.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindThreads.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\GNUInstallDirs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CheckCompilerFlag.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CheckFlagCommonConfig.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Linker\MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\WriteBasicConfigVersionFile.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Templates\CPackConfig.cmake.in CMakeCache.txt CMakeFiles\4.3.1-msvc1\CMakeCCompiler.cmake CMakeFiles\4.3.1-msvc1\CMakeCXXCompiler.cmake CMakeFiles\4.3.1-msvc1\CMakeRCCompiler.cmake CMakeFiles\4.3.1-msvc1\CMakeSystem.cmake _deps\raylib-src\CMakeLists.txt _deps\raylib-src\CMakeOptions.txt _deps\raylib-src\cmake\AddIfFlagCompiles.cmake _deps\raylib-src\cmake\CompileDefinitions.cmake _deps\raylib-src\cmake\CompilerFlags.cmake _deps\raylib-src\cmake\EnumOption.cmake _deps\raylib-src\cmake\GlfwImport.cmake _deps\raylib-src\cmake\InstallConfigurations.cmake _deps\raylib-src\cmake\JoinPaths.cmake _deps\raylib-src\cmake\LibraryConfigurations.cmake _deps\raylib-src\cmake\LibraryPathToLinkerFlags.cmake _deps\raylib-src\cmake\PackConfigurations.cmake _deps\raylib-src\cmake\ParseConfigHeader.cmake _deps\raylib-src\cmake\PopulateConfigVariablesLocally.cmake _deps\raylib-src\cmake\Uninstall.cmake _deps\raylib-src\cmake\raylib-config-version.cmake _deps\raylib-src\raylib.pc.in _deps\raylib-src\src\CMakeLists.txt _deps\raylib-src\src\external\glfw\CMakeLists.txt _deps\raylib-src\src\external\glfw\CMake\glfw3.pc.in _deps\raylib-src\src\external\glfw\CMake\glfw3Config.cmake.in _deps\raylib-src\src\external\glfw\src\CMakeLists.txt: phony
 
 
 #############################################

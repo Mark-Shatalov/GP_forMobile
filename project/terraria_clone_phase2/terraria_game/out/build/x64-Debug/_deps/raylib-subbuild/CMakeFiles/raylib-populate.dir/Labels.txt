@@ -1,14 +1,14 @@
 # Target labels
  raylib-populate
 # Source files and their labels
-C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-subbuild/CMakeFiles/raylib-populate
-C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-subbuild/CMakeFiles/raylib-populate.rule
-C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-subbuild/CMakeFiles/raylib-populate-complete.rule
-C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-build.rule
-C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-configure.rule
-C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-download.rule
-C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-install.rule
-C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-mkdir.rule
-C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch.rule
-C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-test.rule
-C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update.rule
+C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-subbuild/CMakeFiles/raylib-populate
+C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-subbuild/CMakeFiles/raylib-populate.rule
+C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-subbuild/CMakeFiles/raylib-populate-complete.rule
+C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-build.rule
+C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-configure.rule
+C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-download.rule
+C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-install.rule
+C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-mkdir.rule
+C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch.rule
+C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-test.rule
+C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update.rule

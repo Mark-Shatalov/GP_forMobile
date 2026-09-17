@@ -1,4 +1,4 @@
-prefix=C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/install/x64-Debug
+prefix=C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/install/x64-Debug
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

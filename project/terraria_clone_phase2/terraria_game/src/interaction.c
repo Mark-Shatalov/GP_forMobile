@@ -57,6 +57,89 @@ static bool TileOverlapsPlayer(const Player *player, int tileX, int tileY)
     return CheckCollisionRecs(tileBounds, playerBounds);
 }
 
+typedef struct TreeTilePosition
+{
+    int x;
+    int y;
+    TileType type;
+} TreeTilePosition;
+
+static bool IsTreeTile(TileType tileType)
+{
+    return tileType == TILE_WOOD || tileType == TILE_LEAVES;
+}
+
+static void AddTreeNeighbor(World *world, TreeTilePosition tilesToBreak[],
+                            int *tileCount, int tileX, int tileY,
+                            int minedTileY)
+{
+    TileType tileType = World_GetTile(world, tileX, tileY);
+    if (!World_IsInBounds(tileX, tileY) || !IsTreeTile(tileType))
+    {
+        return;
+    }
+
+    /* Screen-space Y increases downward. Wood below the mined block has a
+       larger Y coordinate, so leave it standing. Leaves are always included
+       once the search reaches the canopy, including its hanging edges. */
+    if (tileType == TILE_WOOD && tileY > minedTileY)
+    {
+        return;
+    }
+
+    /* Clearing a tile when it enters the list also marks it as visited.
+       This prevents the same tile from being added more than once. */
+    World_SetTile(world, tileX, tileY, TILE_AIR);
+    tilesToBreak[*tileCount] = (TreeTilePosition){ tileX, tileY, tileType };
+    (*tileCount)++;
+}
+
+static void BreakConnectedTree(World *world, int startTileX, int startTileY,
+                               ParticleSystem *particleSystem,
+                               DroppedItemSystem *droppedItemSystem)
+{
+    /* This queue can hold the entire world, so even a large player-built
+       connected tree cannot overflow it. Natural trees use only a few slots. */
+    TreeTilePosition tilesToBreak[WORLD_WIDTH_TILES * WORLD_HEIGHT_TILES];
+    int tileCount = 0;
+    int nextTile = 0;
+
+    AddTreeNeighbor(world, tilesToBreak, &tileCount,
+                    startTileX, startTileY, startTileY);
+
+    while (nextTile < tileCount)
+    {
+        TreeTilePosition position = tilesToBreak[nextTile];
+        nextTile++;
+
+        AddTreeNeighbor(world, tilesToBreak, &tileCount,
+                        position.x - 1, position.y, startTileY);
+        AddTreeNeighbor(world, tilesToBreak, &tileCount,
+                        position.x + 1, position.y, startTileY);
+        AddTreeNeighbor(world, tilesToBreak, &tileCount,
+                        position.x, position.y - 1, startTileY);
+        AddTreeNeighbor(world, tilesToBreak, &tileCount,
+                        position.x, position.y + 1, startTileY);
+    }
+
+    for (int i = 0; i < tileCount; i++)
+    {
+        TreeTilePosition position = tilesToBreak[i];
+        Rectangle tileBounds = GetTileBounds(position.x, position.y);
+
+        Vector2 tileCenter = {
+            tileBounds.x + tileBounds.width / 2.0f,
+            tileBounds.y + tileBounds.height / 2.0f
+        };
+
+        ParticleSystem_SpawnBlockBreak(particleSystem, tileBounds,
+                                       Tile_GetColor(position.type));
+        DroppedItemSystem_Spawn(droppedItemSystem,
+                                Item_FromTileType(position.type), 1,
+                                tileCenter);
+    }
+}
+
 static void TryMineBlock(Interaction *interaction, World *world,
                          ParticleSystem *particleSystem,
                          DroppedItemSystem *droppedItemSystem)
@@ -66,6 +149,14 @@ static void TryMineBlock(Interaction *interaction, World *world,
                                      interaction->targetTileY);
     if (tileType == TILE_AIR)
     {
+        return;
+    }
+
+    if (tileType == TILE_WOOD)
+    {
+        BreakConnectedTree(world, interaction->targetTileX,
+                           interaction->targetTileY, particleSystem,
+                           droppedItemSystem);
         return;
     }
 

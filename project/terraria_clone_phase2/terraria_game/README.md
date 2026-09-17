@@ -24,11 +24,12 @@ What exists right now:
 - Collectible item drops created by mining blocks
 - Placement that consumes one item from the selected stack
 - Mouse-wheel and number-key hotbar selection
-- Reproducible rolling terrain generated from a configurable seed
+- A freshly randomized world on every game launch
 - Variable dirt depth with stone underneath
 - Random-walk cave tunnels below the protected surface
 - Copper ore veins placed inside stone
 - Trees made from collectible wood and leaf blocks
+- Tree breaking from the mined trunk block upward, while lower wood remains
 - Generated-surface player spawning with a clear starting area
 
 Controls:

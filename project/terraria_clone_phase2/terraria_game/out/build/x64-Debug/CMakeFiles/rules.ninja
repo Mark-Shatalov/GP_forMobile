@@ -74,7 +74,7 @@ rule C_COMPILER__glfw_unscanned_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game -BC:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug
+  command = "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game -BC:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug
   description = Re-running CMake...
   generator = 1
 
@@ -83,7 +83,7 @@ rule RERUN_CMAKE
 # Rule for re-checking globbed directories.
 
 rule VERIFY_GLOBS
-  command = "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:\GP_forMobile\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\CMakeFiles\VerifyGlobs.cmake
+  command = "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:\GameplayProgramming\GP_forMobile\project\terraria_clone_phase2\terraria_game\out\build\x64-Debug\CMakeFiles\VerifyGlobs.cmake
   description = Re-checking globbed directories...
   generator = 1
 

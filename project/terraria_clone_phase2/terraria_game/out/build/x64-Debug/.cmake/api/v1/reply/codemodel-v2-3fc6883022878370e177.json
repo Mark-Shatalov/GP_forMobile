@@ -208,21 +208,21 @@
 				{
 					"directoryIndex" : 4,
 					"id" : "glfw::@9de86fbe87260ae8e66c",
-					"jsonFile" : "target-glfw-Debug-0740388a957f3f828490.json",
+					"jsonFile" : "target-glfw-Debug-1e4a229ec60708eae403.json",
 					"name" : "glfw",
 					"projectIndex" : 2
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "raylib::@4dc3a4644cf4ded08c01",
-					"jsonFile" : "target-raylib-Debug-b1363247f092dedd453e.json",
+					"jsonFile" : "target-raylib-Debug-23d4a382b143f62d9db4.json",
 					"name" : "raylib",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "terraria_clone::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-terraria_clone-Debug-868670cbf46d80844a08.json",
+					"jsonFile" : "target-terraria_clone-Debug-509b09a5e735d96d57aa.json",
 					"name" : "terraria_clone",
 					"projectIndex" : 0
 				},
@@ -246,8 +246,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug",
-		"source" : "C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game"
+		"build" : "C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug",
+		"source" : "C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game"
 	},
 	"version" : 
 	{

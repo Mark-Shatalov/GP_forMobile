@@ -12,7 +12,8 @@
     3. Copper veins placed only inside remaining stone.
     4. Trees placed on grass with a clear area around the player spawn.
 
-    A fixed seed makes the result repeatable while learning and debugging.
+    Raylib seeds its random-number generator when the window opens, so every
+    new game starts with a different world.
 */
 
 static int ClampInt(int value, int minimum, int maximum)
@@ -205,7 +206,6 @@ void WorldGeneration_Generate(World *world)
 {
     int surfaceHeights[WORLD_WIDTH_TILES];
 
-    SetRandomSeed(WORLD_GENERATION_SEED);
     GenerateTerrainLayers(world, surfaceHeights);
     GenerateCaves(world, surfaceHeights);
     GenerateOreVeins(world);

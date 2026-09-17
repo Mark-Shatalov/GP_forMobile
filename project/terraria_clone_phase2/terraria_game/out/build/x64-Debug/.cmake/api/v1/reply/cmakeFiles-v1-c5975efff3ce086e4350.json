@@ -2,23 +2,23 @@
 	"globsDependent" : 
 	[
 		{
-			"expression" : "C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/src/*.c",
+			"expression" : "C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/src/*.c",
 			"listDirectories" : true,
 			"paths" : 
 			[
-				"C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/src/camera_controller.c",
-				"C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/src/dropped_item.c",
-				"C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/src/game.c",
-				"C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/src/input.c",
-				"C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/src/interaction.c",
-				"C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/src/inventory.c",
-				"C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/src/item.c",
-				"C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/src/main.c",
-				"C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/src/particle.c",
-				"C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/src/player.c",
-				"C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/src/tile.c",
-				"C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/src/world.c",
-				"C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/src/world_generation.c"
+				"C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/src/camera_controller.c",
+				"C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/src/dropped_item.c",
+				"C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/src/game.c",
+				"C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/src/input.c",
+				"C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/src/interaction.c",
+				"C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/src/inventory.c",
+				"C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/src/item.c",
+				"C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/src/main.c",
+				"C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/src/particle.c",
+				"C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/src/player.c",
+				"C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/src/tile.c",
+				"C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/src/world.c",
+				"C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/src/world_generation.c"
 			]
 		}
 	],
@@ -478,8 +478,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug",
-		"source" : "C:/GP_forMobile/GP_forMobile/project/terraria_clone_phase2/terraria_game"
+		"build" : "C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game/out/build/x64-Debug",
+		"source" : "C:/GameplayProgramming/GP_forMobile/project/terraria_clone_phase2/terraria_game"
 	},
 	"version" : 
 	{
