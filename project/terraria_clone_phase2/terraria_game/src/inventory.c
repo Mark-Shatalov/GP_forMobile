@@ -45,12 +45,13 @@ int Inventory_AddItem(Inventory *inventory, ItemType type, int quantity)
     for (int i = 0; i < HOTBAR_SLOT_COUNT && quantity > 0; i++)
     {
         ItemStack *stack = &inventory->slots[i];
-        if (stack->type != type || stack->quantity >= ITEM_MAX_STACK)
+        int maximumStack = Item_GetMaxStack(type);
+        if (stack->type != type || stack->quantity >= maximumStack)
         {
             continue;
         }
 
-        int availableSpace = ITEM_MAX_STACK - stack->quantity;
+        int availableSpace = maximumStack - stack->quantity;
         int amountToAdd = quantity < availableSpace ? quantity : availableSpace;
         stack->quantity += amountToAdd;
         quantity -= amountToAdd;
@@ -64,7 +65,8 @@ int Inventory_AddItem(Inventory *inventory, ItemType type, int quantity)
             continue;
         }
 
-        int amountToAdd = quantity < ITEM_MAX_STACK ? quantity : ITEM_MAX_STACK;
+        int maximumStack = Item_GetMaxStack(type);
+        int amountToAdd = quantity < maximumStack ? quantity : maximumStack;
         stack->type = type;
         stack->quantity = amountToAdd;
         quantity -= amountToAdd;

@@ -52,6 +52,14 @@
 
 /* ---------- Block interaction settings ---------- */
 #define BLOCK_REACH_TILES       5.0f
+#define DIRT_MINING_TIME        0.35f
+#define GRASS_MINING_TIME       0.45f
+#define STONE_MINING_TIME       1.80f
+#define WOOD_MINING_TIME        1.20f
+#define LEAVES_MINING_TIME      0.20f
+#define COPPER_MINING_TIME      2.30f
+#define WOODEN_PICKAXE_SPEED    3.0f
+#define WOODEN_AXE_SPEED        3.5f
 #define MAX_BLOCK_PARTICLES     128
 #define BLOCK_BREAK_PARTICLES   10
 #define PARTICLE_GRAVITY        300.0f

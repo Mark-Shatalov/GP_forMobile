@@ -29,8 +29,13 @@ typedef enum TileType
     TILE_TYPE_COUNT /* not a real tile - used to know how many types exist */
 } TileType;
 
-/* Returns true if the tile blocks movement (used by collision in Phase 3). */
+/* Returns true if the tile blocks movement. Trees are decorative foreground
+   tiles, so wood and leaves deliberately return false. */
 bool Tile_IsSolid(TileType type);
+
+/* Returns the number of seconds needed to mine a tile by hand. Tools apply
+   a speed multiplier to this base time. Air has no mining time. */
+float Tile_GetMiningTime(TileType type);
 
 /* Returns a placeholder color for a tile type. This stands in for real
    textures until texture_manager is introduced in a later phase. */

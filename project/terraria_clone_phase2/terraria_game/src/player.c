@@ -22,6 +22,52 @@ static bool IsSolidAt(const World *world, int tileX, int tileY)
     return Tile_IsSolid(World_GetTile(world, tileX, tileY));
 }
 
+static bool CanOccupyPosition(const Player *player, const World *world,
+                              float positionX, float positionY)
+{
+    const float edgeInset = 0.01f;
+    int leftTile = PixelToTile(positionX + edgeInset);
+    int rightTile = PixelToTile(positionX + player->width - edgeInset);
+    int topTile = PixelToTile(positionY + edgeInset);
+    int bottomTile = PixelToTile(positionY + player->height - edgeInset);
+
+    for (int tileY = topTile; tileY <= bottomTile; tileY++)
+    {
+        for (int tileX = leftTile; tileX <= rightTile; tileX++)
+        {
+            if (IsSolidAt(world, tileX, tileY))
+            {
+                return false;
+            }
+        }
+    }
+
+    return true;
+}
+
+static bool TryAutoStep(Player *player, const World *world,
+                        int obstacleTileY, int bottomTile)
+{
+    /* Only the lowest row of the player may be blocked. If a higher row is
+       blocked too, the obstacle is taller than one tile and must stop us. */
+    if (!player->isOnGround || player->velocity.y < 0.0f ||
+        obstacleTileY != bottomTile)
+    {
+        return false;
+    }
+
+    float steppedPositionY = player->position.y - TILE_SIZE;
+    if (steppedPositionY < 0.0f ||
+        !CanOccupyPosition(player, world, player->position.x,
+                           steppedPositionY))
+    {
+        return false;
+    }
+
+    player->position.y = steppedPositionY;
+    return true;
+}
+
 static void ResolveHorizontalCollision(Player *player, const World *world)
 {
     const float edgeInset = 0.01f;
@@ -36,6 +82,11 @@ static void ResolveHorizontalCollision(Player *player, const World *world)
         {
             if (IsSolidAt(world, rightTile, tileY))
             {
+                if (TryAutoStep(player, world, tileY, bottomTile))
+                {
+                    return;
+                }
+
                 player->position.x = rightTile * TILE_SIZE - player->width;
                 player->velocity.x = 0.0f;
                 break;
@@ -50,6 +101,11 @@ static void ResolveHorizontalCollision(Player *player, const World *world)
         {
             if (IsSolidAt(world, leftTile, tileY))
             {
+                if (TryAutoStep(player, world, tileY, bottomTile))
+                {
+                    return;
+                }
+
                 player->position.x = (leftTile + 1) * TILE_SIZE;
                 player->velocity.x = 0.0f;
                 break;

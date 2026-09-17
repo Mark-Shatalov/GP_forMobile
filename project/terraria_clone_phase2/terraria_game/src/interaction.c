@@ -175,6 +175,61 @@ static void TryMineBlock(Interaction *interaction, World *world,
                             Item_FromTileType(tileType), 1, tileCenter);
 }
 
+static void ResetMining(Interaction *interaction)
+{
+    interaction->isMining = false;
+    interaction->miningProgress = 0.0f;
+}
+
+static void UpdateMining(Interaction *interaction, World *world,
+                         const Inventory *inventory,
+                         ParticleSystem *particleSystem,
+                         DroppedItemSystem *droppedItemSystem,
+                         float deltaTime)
+{
+    TileType tileType = World_GetTile(world, interaction->targetTileX,
+                                     interaction->targetTileY);
+    if (tileType == TILE_AIR)
+    {
+        ResetMining(interaction);
+        return;
+    }
+
+    bool targetChanged = !interaction->isMining ||
+        interaction->miningTileX != interaction->targetTileX ||
+        interaction->miningTileY != interaction->targetTileY;
+
+    if (targetChanged)
+    {
+        interaction->miningTileX = interaction->targetTileX;
+        interaction->miningTileY = interaction->targetTileY;
+        interaction->miningProgress = 0.0f;
+        interaction->isMining = true;
+    }
+
+    if (deltaTime > 0.05f)
+    {
+        deltaTime = 0.05f;
+    }
+
+    const ItemStack *selectedStack = Inventory_GetSelectedStack(inventory);
+    float miningTime = Tile_GetMiningTime(tileType);
+    float miningSpeed = Item_GetMiningSpeed(selectedStack->type, tileType);
+
+    if (miningTime <= 0.0f)
+    {
+        ResetMining(interaction);
+        return;
+    }
+
+    interaction->miningProgress += deltaTime * miningSpeed / miningTime;
+    if (interaction->miningProgress >= 1.0f)
+    {
+        TryMineBlock(interaction, world, particleSystem, droppedItemSystem);
+        ResetMining(interaction);
+    }
+}
+
 static void TryPlaceBlock(const Interaction *interaction, World *world,
                           const Player *player, Inventory *inventory)
 {
@@ -210,6 +265,10 @@ void Interaction_Init(Interaction *interaction)
     interaction->targetTileY = 0;
     interaction->targetIsInWorld = false;
     interaction->targetIsInReach = false;
+    interaction->miningTileX = 0;
+    interaction->miningTileY = 0;
+    interaction->miningProgress = 0.0f;
+    interaction->isMining = false;
 }
 
 void Interaction_Update(Interaction *interaction, World *world,
@@ -217,7 +276,7 @@ void Interaction_Update(Interaction *interaction, World *world,
                         InteractionInput input,
                         ParticleSystem *particleSystem,
                         DroppedItemSystem *droppedItemSystem,
-                        Inventory *inventory)
+                        Inventory *inventory, float deltaTime)
 {
     Vector2 mouseWorldPosition =
         GetScreenToWorld2D(input.mouseScreenPosition, camera);
@@ -236,16 +295,22 @@ void Interaction_Update(Interaction *interaction, World *world,
 
     if (!interaction->targetIsInReach)
     {
+        ResetMining(interaction);
         return;
     }
 
-    if (input.minePressed)
+    if (input.mineHeld)
     {
-        TryMineBlock(interaction, world, particleSystem, droppedItemSystem);
+        UpdateMining(interaction, world, inventory, particleSystem,
+                     droppedItemSystem, deltaTime);
     }
-    else if (input.placePressed)
+    else
     {
-        TryPlaceBlock(interaction, world, player, inventory);
+        ResetMining(interaction);
+        if (input.placePressed)
+        {
+            TryPlaceBlock(interaction, world, player, inventory);
+        }
     }
 }
 
@@ -261,4 +326,21 @@ void Interaction_Draw(const Interaction *interaction)
     Color outlineColor = interaction->targetIsInReach ? YELLOW : RED;
 
     DrawRectangleLinesEx(tileBounds, 1.0f, outlineColor);
+
+    if (interaction->isMining)
+    {
+        const float barHeight = 3.0f;
+        Rectangle barBackground = {
+            tileBounds.x,
+            tileBounds.y - barHeight - 2.0f,
+            tileBounds.width,
+            barHeight
+        };
+        Rectangle barFill = barBackground;
+        barFill.width *= interaction->miningProgress;
+
+        DrawRectangleRec(barBackground, (Color){ 25, 25, 30, 220 });
+        DrawRectangleRec(barFill, GOLD);
+        DrawRectangleLinesEx(barBackground, 0.5f, BLACK);
+    }
 }

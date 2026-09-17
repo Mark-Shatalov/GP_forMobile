@@ -22,7 +22,7 @@ typedef struct PlayerInput
 typedef struct InteractionInput
 {
     Vector2 mouseScreenPosition;
-    bool minePressed;
+    bool mineHeld;
     bool placePressed;
 } InteractionInput;
 

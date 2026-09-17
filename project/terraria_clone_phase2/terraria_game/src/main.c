@@ -43,11 +43,11 @@ int main(void)
 
             /* Debug info drawn in screen space (outside the camera) */
             DrawFPS(10, 10);
-            DrawText("Phase 6: Procedural World Generation", 10, 35, 20, RAYWHITE);
+            DrawText("Phase 7: Tools and Progressive Mining", 10, 35, 20, RAYWHITE);
             DrawText("Move: A/D or Left/Right   Jump: Space   Ctrl+Wheel: Zoom", 10, 60, 18, LIGHTGRAY);
-            DrawText("Mine: Left Click   Place Selected Block: Right Click", 10, 85, 18, LIGHTGRAY);
+            DrawText("Mine: Hold Left Click   Place Selected Block: Right Click", 10, 85, 18, LIGHTGRAY);
             DrawText("Select Hotbar: Mouse Wheel or Number Keys 1-0", 10, 110, 18, LIGHTGRAY);
-            DrawText("World: Hills, caves, trees, and copper ore", 10, 135, 18, LIGHTGRAY);
+            DrawText("Tools: Pickaxe for stone/ore   Axe for trees", 10, 135, 18, LIGHTGRAY);
             DrawText(TextFormat("Player position: X %.1f  Y %.1f",
                                 game.player.position.x,
                                 game.player.position.y),

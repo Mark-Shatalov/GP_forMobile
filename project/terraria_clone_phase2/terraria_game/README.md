@@ -4,7 +4,7 @@ An educational, step-by-step recreation of a Terraria-like 2D sandbox game,
 built in plain C (C99) with Raylib. Each development phase is built and
 verified before moving to the next one.
 
-## Current status: Phase 6 - Procedural world complete
+## Current status: Phase 7 - Tools and progressive mining complete
 
 What exists right now:
 
@@ -29,8 +29,14 @@ What exists right now:
 - Random-walk cave tunnels below the protected surface
 - Copper ore veins placed inside stone
 - Trees made from collectible wood and leaf blocks
+- Non-solid trees that the player and dropped items can pass through
 - Tree breaking from the mined trunk block upward, while lower wood remains
 - Generated-surface player spawning with a clear starting area
+- Hold-to-mine interaction with different mining times for each tile type
+- Wooden pickaxe with faster stone and copper mining
+- Wooden axe with faster wood and leaf mining
+- A world-space mining progress bar over the targeted block
+- Automatic stepping over one-tile obstacles while walking
 
 Controls:
 
@@ -39,7 +45,7 @@ Controls:
 - Mouse wheel - change the selected hotbar slot
 - Number keys `1` through `0` - select a hotbar slot directly
 - `Ctrl` + Mouse wheel - zoom in/out
-- Left click - mine the targeted block
+- Hold left click - mine the targeted block
 - Right click - place the selected block
 
 ## Project structure
@@ -117,3 +123,4 @@ make clean
 - [x] Phase 4 - Interaction (mining, placing, reach distance, particles)
 - [x] Phase 5 - Inventory (hotbar, stacking, pickup, selection)
 - [x] Phase 6 - Procedural world (surface, caves, trees, ores)
+- [x] Phase 7 - Tools, progressive mining, and one-tile auto-step

@@ -1,4 +1,5 @@
 #include "item.h"
+#include "constants.h"
 
 /*
     item.c
@@ -17,6 +18,8 @@ const char *Item_GetName(ItemType type)
         case ITEM_WOOD:  return "Wood";
         case ITEM_LEAVES: return "Leaves";
         case ITEM_COPPER_ORE: return "Copper Ore";
+        case ITEM_WOODEN_PICKAXE: return "Wooden Pickaxe";
+        case ITEM_WOODEN_AXE: return "Wooden Axe";
         case ITEM_NONE:
         default:         return "Empty";
     }
@@ -32,9 +35,38 @@ Color Item_GetColor(ItemType type)
         case ITEM_WOOD:  return (Color){ 112, 74, 42, 255 };
         case ITEM_LEAVES: return (Color){ 52, 125, 55, 255 };
         case ITEM_COPPER_ORE: return (Color){ 184, 105, 64, 255 };
+        case ITEM_WOODEN_PICKAXE: return (Color){ 196, 171, 121, 255 };
+        case ITEM_WOODEN_AXE: return (Color){ 191, 132, 76, 255 };
         case ITEM_NONE:
         default:         return BLANK;
     }
+}
+
+int Item_GetMaxStack(ItemType type)
+{
+    if (type == ITEM_WOODEN_PICKAXE || type == ITEM_WOODEN_AXE)
+    {
+        return 1;
+    }
+
+    return ITEM_MAX_STACK;
+}
+
+float Item_GetMiningSpeed(ItemType itemType, TileType tileType)
+{
+    if (itemType == ITEM_WOODEN_PICKAXE &&
+        (tileType == TILE_STONE || tileType == TILE_COPPER_ORE))
+    {
+        return WOODEN_PICKAXE_SPEED;
+    }
+
+    if (itemType == ITEM_WOODEN_AXE &&
+        (tileType == TILE_WOOD || tileType == TILE_LEAVES))
+    {
+        return WOODEN_AXE_SPEED;
+    }
+
+    return 1.0f;
 }
 
 ItemType Item_FromTileType(TileType tileType)
@@ -62,6 +94,8 @@ TileType Item_GetPlacedTile(ItemType itemType)
         case ITEM_WOOD:  return TILE_WOOD;
         case ITEM_LEAVES: return TILE_LEAVES;
         case ITEM_COPPER_ORE: return TILE_COPPER_ORE;
+        case ITEM_WOODEN_PICKAXE:
+        case ITEM_WOODEN_AXE:
         case ITEM_NONE:
         default:         return TILE_AIR;
     }

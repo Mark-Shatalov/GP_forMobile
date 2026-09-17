@@ -17,8 +17,8 @@
     main.c should stay tiny — it just creates the window and calls into
     Game_Init / Game_Update / Game_Draw / Game_Shutdown every frame.
 
-    Phase 6 keeps all completed systems together and starts the player at a
-    safe point on the procedurally generated surface.
+    Phase 7 keeps all completed systems together, including progressive
+    mining, tools, and one-tile automatic stepping.
 */
 
 typedef struct Game

@@ -8,11 +8,10 @@
 
     Implementation of the Game module.
 
-    Phase 6 scope:
-    - Generate rolling surface terrain and variable dirt layers
-    - Carve cave tunnels and place copper ore veins
-    - Grow simple trees while keeping the spawn area clear
-    - Spawn the player on the generated surface
+    Phase 7 scope:
+    - Mine by holding the mouse button, with tile hardness and progress
+    - Use a wooden pickaxe on stone and ore, or an axe on trees
+    - Step automatically over one-tile obstacles while walking
 */
 
 void Game_Init(Game *game)
@@ -37,6 +36,8 @@ void Game_Init(Game *game)
     /* A small starter stack makes placement immediately testable. Mined
        blocks will stack into the same slot when the player collects them. */
     Inventory_AddItem(&game->inventory, ITEM_DIRT, 20);
+    Inventory_AddItem(&game->inventory, ITEM_WOODEN_PICKAXE, 1);
+    Inventory_AddItem(&game->inventory, ITEM_WOODEN_AXE, 1);
 
     game->cameraController.camera.target = Player_GetCenter(&game->player);
 }
@@ -55,7 +56,7 @@ void Game_Update(Game *game, float deltaTime)
     Interaction_Update(&game->interaction, &game->world, &game->player,
                        game->cameraController.camera, interactionInput,
                        &game->particleSystem, &game->droppedItemSystem,
-                       &game->inventory);
+                       &game->inventory, deltaTime);
     ParticleSystem_Update(&game->particleSystem, deltaTime);
     DroppedItemSystem_Update(&game->droppedItemSystem, &game->world,
                              &game->player, &game->inventory, deltaTime);

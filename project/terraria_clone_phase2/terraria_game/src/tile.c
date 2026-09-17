@@ -1,10 +1,11 @@
 #include "tile.h"
+#include "constants.h"
 
 /*
     tile.c
 
     Implementation of per-tile-type properties. As we add more tile
-    types later (ores, wood, etc.), these two functions are the only
+    types later (ores, wood, etc.), these functions are the only
     places that need a new case added.
 */
 
@@ -13,18 +14,33 @@ bool Tile_IsSolid(TileType type)
     switch (type)
     {
         case TILE_AIR:
+        case TILE_WOOD:
+        case TILE_LEAVES:
             return false;
 
         case TILE_DIRT:
         case TILE_GRASS:
         case TILE_STONE:
-        case TILE_WOOD:
-        case TILE_LEAVES:
         case TILE_COPPER_ORE:
             return true;
 
         default:
             return false;
+    }
+}
+
+float Tile_GetMiningTime(TileType type)
+{
+    switch (type)
+    {
+        case TILE_DIRT:       return DIRT_MINING_TIME;
+        case TILE_GRASS:      return GRASS_MINING_TIME;
+        case TILE_STONE:      return STONE_MINING_TIME;
+        case TILE_WOOD:       return WOOD_MINING_TIME;
+        case TILE_LEAVES:     return LEAVES_MINING_TIME;
+        case TILE_COPPER_ORE: return COPPER_MINING_TIME;
+        case TILE_AIR:
+        default:              return 0.0f;
     }
 }
 

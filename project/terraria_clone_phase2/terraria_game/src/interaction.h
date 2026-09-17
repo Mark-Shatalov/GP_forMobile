@@ -23,6 +23,10 @@ typedef struct Interaction
     int targetTileY;
     bool targetIsInWorld;
     bool targetIsInReach;
+    int miningTileX;
+    int miningTileY;
+    float miningProgress;
+    bool isMining;
 } Interaction;
 
 void Interaction_Init(Interaction *interaction);
@@ -33,7 +37,7 @@ void Interaction_Update(Interaction *interaction, World *world,
                         InteractionInput input,
                         ParticleSystem *particleSystem,
                         DroppedItemSystem *droppedItemSystem,
-                        Inventory *inventory);
+                        Inventory *inventory, float deltaTime);
 
 /* Draws an outline over the tile under the mouse. */
 void Interaction_Draw(const Interaction *interaction);
